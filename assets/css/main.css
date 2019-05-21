@@ -120,15 +120,27 @@ display:block;
   margin-bottom: 100px;
 }
 
+#page-header-color-by-number-generator {
+  background-image: url("../images/background_buddha.png") !important;
+  height: 500px;
+}
+#page-section-color-by-number-generator-body {
+  background-color: #EDEDED!important;
+}
+
 
 .column-image {
   max-width: 300px;
 }
 
+.instructionImage {
+  width:150px;
+}
+
 .page-section {
   width: 100%;
   padding:60px 30px 30px 30px;
-  background-color: #f7f7f7!important
+  background-color: #f7f7f7;
 }
 .page-section__title {
   text-align: center;

@@ -1,0 +1,118 @@
+---
+id: color-by-number-generator
+layout: default
+---
+<div class="container-fluid page-header" id="page-header-color-by-number-generator">
+  <div class="row">
+    <div class="col-sm-12 page-header__title">
+      <h1>Mystery Mosaic / Color-By-Number Generator</h1>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid page-section" id="page-section-color-by-number-generator-body">
+  <div class="row">
+    <div class="col-sm-3 page-section__title">
+    	<h3><span>1.</span> Upload a file</h3>
+    	<img class="instructionImage" alt="Lamb Input Image" src="assets/images/lamb_small.png">
+    </div>
+    <div class="col-sm-1 page-section__title">
+    	<h3><i class="fas fa-long-arrow-alt-right"></i></h3>
+    </div>
+    <div class="col-sm-3 page-section__title">
+    	<h3><span>2.</span> Adjust settings</h3>
+    	<img class="instructionImage" alt="Lamb Input Image" src="assets/images/lamb_40_4_1_color.png">
+    </div>
+    <div class="col-sm-1 page-section__title">
+    	<h3><i class="fas fa-long-arrow-alt-right"></i></h3>
+    </div>
+    <div class="col-sm-3 page-section__title">
+    	<h3><span>3.</span> Print PDF and color!</h3>
+    	<img class="instructionImage" alt="Lamb Input Image" src="assets/images/lamb_40_4_1_partial.png">
+    </div>
+  </div>
+</div>
+
+<section class="settings-container">
+		<div class="setting-one">
+			<fieldset class="block">
+			<legend>1. Upload File</legend>
+				<input id="inputFileUpload" type="file" name="file" class="ui-button" accept="image/*">
+				<br>
+				<output id="inputImage"></output>
+				<img id="image" alt="Blank Image Placeholder" style="display:none">
+
+				<div class="imagePreview">
+					<canvas id="inputCanvas">
+						Your browser does not support the HTML5 canvas tag.
+					</canvas>
+				</div>
+			</fieldset>				
+		</div>
+		<div class="setting-two">
+			<fieldset class="block">
+			<legend>2. Settings</legend>
+				<span class="input-label">
+					Grid Size
+					<input type="number" id="inputFieldNumberCells" name="inputFieldNumberCells">
+				</span>
+				<div id="sliderNumberCells" class="slider"></div>
+				<span class="input-label">
+					Number of Colors
+					<input type="number" id="inputFieldNumberColors" name="inputFieldNumberColors">
+				</span>
+				<div id="sliderNumberColors" class="slider"></div>
+				<span class="input-label">
+					Adjust Colors
+					<input type="number" id="inputFieldColorTolerance" name="inputFieldColorTolerance">
+				</span>
+				<div id="sliderColorTolerance" class="slider"></div>
+			</fieldset>
+		</div>
+		<div class="setting-three">
+			<fieldset class="block">
+			<legend>3. Export</legend>
+					<input type="button" id="inputButtonGeneratePDF" name="inputButtonGeneratePDF" value="Generate PDF">
+					<input type="button" id="inputButtonSaveImage" name="inputButtonSaveImage" value="Save Image">
+			</fieldset>
+		</div>
+		<div class="preview">
+			<fieldset class="block">
+			<legend>Preview</legend>
+				<span class="input-label">
+					Number Grid
+				</span>
+				<label class="switch">
+					<input id="checkboxPreviewMode" type="checkbox" checked>
+					<span class="toggle round ui-widget-header"></span>
+				</label>
+				<span class="input-label">
+					Color
+				</span>
+				<div class="imagePreview">
+					<canvas id="outputCanvas">
+						Your browser does not support the HTML5 canvas tag.
+					</canvas>
+					<canvas id="colorSwatchCanvas">
+						Your browser does not support the HTML5 canvas tag.
+					</canvas>
+				</div>
+			</fieldset>
+		</div>
+	</section>
+
+<div class="row">
+    <div class="col-sm-3 page-section__title">
+		<div id="about">
+			<h2>About</h2>
+			Tool and website created by <a href="http://www.ashmystic.com" target="_blank">Ash Mystic</a>
+			<br>
+			Built with <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API" target="_blank">HTML 5 Canvas</a>, <a href="https://jqueryui.com/" target="_blank">jQuery UI</a> and <a href="https://github.com/MrRio/jsPDF" target="_blank">jsPDF</a>
+			<br>
+			<a href="https://github.com/ashmystic/color-by-number-generator" target="_blank">View Source Code</a>
+		</div>
+	</div>
+</div>
+
+{% include emailsignup.html %}
+{% include contactform.html %}
