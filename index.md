@@ -4,7 +4,7 @@
 
 id: home
 title: Spiritual Guidance, Tools & Art
-subtitle: with Ash Mystic
+subtitle: by Ash Mystic
 header-image: mystic_eyes_motion.gif
 show-contactform: true
 layout: home

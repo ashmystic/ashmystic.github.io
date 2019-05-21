@@ -2,4 +2,5 @@
   background-image: url("../images/textures/az-subtle.png");
   background-color: DarkSlateGrey;
   color: white;
+  text-align: left !important;
 }

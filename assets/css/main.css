@@ -1,11 +1,19 @@
 * {
     box-sizing: border-box;
 }
+html, body, #content {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden
+  color: Slategray;
+}
 
 h1, h2, h3, .nav-link {
     font-family: 'Inknut Antiqua', serif;
 }
-h1 {
+h1,h2 {
   text-align: center;
 }
 
@@ -38,4 +46,118 @@ display:block;
   h4, h5, h6 {
     /*font-size: 0.7em;*/
   }
+}
+
+.quote {
+  font-style: italic;
+  text-align: center;
+}
+.quote__text {
+  text-align: left;
+}
+.quote__name {
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.page-header {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: right 50% bottom 30%;
+  color: white;
+  position:relative;
+
+  margin: 0px;
+}
+
+.page-header__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+
+  color: white;
+  text-shadow: 2px 1px #333;
+
+  padding: 50px;
+
+  background: #333333;
+    /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, hsla(0, 0%, 20%, 0.6) 0%, hsla(0, 0%, 100%, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, hsla(0, 0%, 20%, 0.6) 0%, hsla(0, 0%, 100%, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, hsla(0, 0%, 20%, 0.6) 0%, hsla(0, 0%, 100%, 0) 100%);
+}
+
+.page-header__image {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    align: middle;
+    height: 500px;
+}
+
+#page-header-home {
+  background-image: url("../images/category-page-header/mystic_eyes_motion.gif") !important;
+  height: 500px;
+}
+
+#page-header-art-shop {
+  background-image: url("../images/etsy_banner.jpg") !important;
+  height: 500px;
+}
+
+#page-header-tools {
+  background-image: url("../images/fractal_heart.jpg") !important;
+  height: 500px;
+}
+#page-header-tools > .column-image {
+  margin-bottom: 100px;
+}
+
+
+.column-image {
+  max-width: 300px;
+}
+
+.page-section {
+  width: 100%;
+  padding:60px 30px 30px 30px;
+  background-color: #f7f7f7!important
+}
+.page-section__title {
+  text-align: center;
+}
+.page-section__image {
+  max-width: 400px;
+  margin:auto;
+  display: block;
+}
+
+.page-section__image-small {
+  max-width: 150px;
+  margin:auto;
+  display: block;
+}
+.section-about-divination {
+  background-color: #f7f7f7!important;
+}
+
+.symbol {
+  font-size: 2em
+}
+
+#page-section-color-by-number-generator {
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(to bottom, darkmagenta, black);
+}
+
+.row {
+  padding-bottom: 30px;
 }

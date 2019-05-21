@@ -1,14 +1,70 @@
-<nav id="theNavbar" class="navbar navbar-inverse">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="{{ site.url }}">
-                <h2>{{ site.title | escape }}</h2>
-            </a>
-        </div>
-
-        <ul class="nav navbar-nav navbar-right">
-            <img class="navbutton" alt="navigation" src="assets/images/sitenav/nav_map_compass_cropped.png" height="75px" onclick="openNav()"></img>
-        </ul>
-
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="index.html">Ash Mystic</a>
     </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Offerings
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="divination-session">Automatic-Drawing Divination Session</a></li>
+                <li><a href="tools">Tools for Raising Consciousness</a></li>
+                <li><a href="art">Comissioned Art & Collaboration</a></li>
+            </ul>
+        </li>
+        <li><a href="art-shop">Art Shop</a></li>
+        <li><a href="about-me">About</a></li> 
+      </ul>
+    </div>
+  </div>
 </nav>
+
+<!-- <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbarCollapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="/index.html">MyBrand</a>
+            </div>
+
+            <div class="collapse navbar-collapse navbarCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="/index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="divination-session"> Links</a>
+                    </li>
+
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<div id="links">Links</div> -->
