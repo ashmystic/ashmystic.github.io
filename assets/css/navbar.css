@@ -113,7 +113,7 @@
     transition: margin-left .5s;
 }
 
-@media (min-width: 250px) and (max-width: 475px) {
+@media (min-width: 250px) and (max-width: 540px) {
     .navbar-header {
         float: none;
     }
@@ -247,4 +247,19 @@
 }
 .nav-link:hover .nav-link__text {
   color: AntiqueWhite;
+}
+
+
+
+
+
+.navbar-icon {
+  width: 35px;
+  margin-top: ;
+}
+.navbar-brand {
+  margin-top: -5px;
+  margin-bottom: 5px;
+
+  font-family: 'Inknut Antiqua', serif;
 }
