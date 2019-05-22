@@ -1,7 +1,9 @@
 #emailsignup {
+  color: white;
   background-image: url("../images/drawing_example.JPG") !important
   /*height: default;*/
 }
+
 #emailsignup > .row {
 	padding: 20px;
  	/*margin: 0px !important;*/

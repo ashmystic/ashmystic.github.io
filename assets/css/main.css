@@ -38,14 +38,6 @@ display:block;
 
 /* external css: flickity.css */
 
-
-@media screen and ( max-width: 345px) {
-  img {
-    max-width: 250px;
-  }
-}
-
-
 .quote {
   font-style: italic;
   text-align: center;
@@ -67,7 +59,26 @@ display:block;
   position:relative;
 
   margin: 0px;
+  height: 500px;
 }
+@media (min-width: 150px) and (max-width: 475px) {
+  .page-header {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 300px 300px;
+    background-position: right 50% bottom 100%;
+    color: white;
+    position:relative;
+
+    margin: 0px;
+    height: 300px !important;
+  }
+}
+@media (max-width: 350px) {
+    img {
+      width: 200px;
+    }
+  }
 
 .page-header__title {
   position: absolute;
@@ -102,20 +113,20 @@ display:block;
 
 #page-header-home {
   background-image: url("../images/category-page-header/mystic_eyes_motion.gif") !important;
-  height: 500px;
+  /*height: 500px;*/
 }
 
 #page-header-art-shop {
   background-image: url("../images/etsy_banner.jpg") !important;
-  height: 500px;
+  /*height: 500px;*/
 }
 #page-header-divination-session {
   background-image: url("../images/business_cards.jpg") !important;
-  height: 500px;
+  /*height: 500px;*/
 }
 #page-header-tools {
   background-image: url("../images/fractal_heart.jpg") !important;
-  height: 500px;
+  /*height: 500px;*/
 }
 
 #page-header-tools > .column-image {
