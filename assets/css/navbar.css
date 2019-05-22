@@ -154,6 +154,14 @@
   }
 }
 
+.dropdown-menu {
+  background-color: #080808;
+}
+.dropdown-menu li a {
+  color: white;
+  padding: 10px 10px;
+}
+
 /* Navigation map */
 .navmap {
   position: absolute;
