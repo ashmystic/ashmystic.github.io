@@ -161,14 +161,15 @@ fieldset.block legend.title2 {
 .donate-cta {
 	overflow:hidden;
 	background-color: cyan;
-	margin: 30px;
-	padding: 30px;
+	margin: 0px;
+	padding: 5px;
 }
 .donate-cta img {
 	width:75px;
 	display: block;
 	margin: auto;
 }
+
 form {
 	padding-top: 20px;
 	padding-bottom: 20px;

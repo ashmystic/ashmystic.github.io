@@ -148,6 +148,10 @@
     .collapse.in{
       display:block !important;
   }
+
+  img {
+    max-width: 225px !important;
+  }
 }
 
 /* Navigation map */
