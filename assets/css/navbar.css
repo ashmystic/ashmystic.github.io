@@ -254,8 +254,7 @@
 
 
 .navbar-icon {
-  width: 35px;
-  margin-top: ;
+  width: 35px !important;
 }
 .navbar-brand {
   margin-top: -5px;
