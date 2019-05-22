@@ -65,7 +65,7 @@ display:block;
   .page-header {
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 300px 300px;
+    background-size: 100% 300px;
     background-position: right 50% bottom 100%;
     color: white;
     position:relative;
@@ -74,11 +74,6 @@ display:block;
     height: 300px !important;
   }
 }
-@media (max-width: 350px) {
-    img {
-      width: 200px;
-    }
-  }
 
 .page-header__title {
   position: absolute;
@@ -117,7 +112,7 @@ display:block;
 }
 
 #page-header-art-shop {
-  background-image: url("../images/etsy_banner.jpg") !important;
+  background-image: url("../images/ancient_accumulator.jpg") !important;
   /*height: 500px;*/
 }
 #page-header-divination-session {
@@ -143,7 +138,8 @@ display:block;
 
 
 .column-image {
-  max-width: 300px;
+  max-width: 350px;
+  width: 100%;
 }
 
 .instructionImage {
@@ -159,7 +155,8 @@ display:block;
   text-align: center;
 }
 .page-section__image {
-  max-width: 400px;
+  max-width: 350px;
+  width: 100%;
   margin:auto;
   display: block;
 }

@@ -1,7 +1,17 @@
 #emailsignup {
   color: white;
-  background-image: url("../images/drawing_example.JPG") !important
+  background-image: url("../images/drawing_example.JPG") !important;
   /*height: default;*/
+
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /*background-position: right 50% bottom 30%;*/
+  color: white;
+  position:relative;
+
+   margin: 0px;
+  height: 350px;
 }
 
 #emailsignup > .row {
