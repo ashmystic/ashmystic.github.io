@@ -39,14 +39,12 @@ display:block;
 /* external css: flickity.css */
 
 
-@media screen and ( max-width: 540px) {
-  h1, h2, h3 {
-    /*font-size: 1.1em;*/
-  }
-  h4, h5, h6 {
-    /*font-size: 0.7em;*/
+@media screen and ( max-width: 345px) {
+  img {
+    max-width: 250px;
   }
 }
+
 
 .quote {
   font-style: italic;
@@ -82,7 +80,7 @@ display:block;
   color: white;
   text-shadow: 2px 1px #333;
 
-  padding: 50px;
+  padding: 100px;
 
   background: #333333;
     /* Old browsers */
@@ -111,11 +109,15 @@ display:block;
   background-image: url("../images/etsy_banner.jpg") !important;
   height: 500px;
 }
-
+#page-header-divination-session {
+  background-image: url("../images/business_cards.jpg") !important;
+  height: 500px;
+}
 #page-header-tools {
   background-image: url("../images/fractal_heart.jpg") !important;
   height: 500px;
 }
+
 #page-header-tools > .column-image {
   margin-bottom: 100px;
 }

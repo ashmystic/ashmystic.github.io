@@ -11,7 +11,9 @@ window.onload = function() {
 };
 
 window.onresize = function() {
-	app.redraw();
+	if(document.getElementById("inputCanvas") != null) {
+		app.redraw();
+	}
 }
 /*
 	Constructor
