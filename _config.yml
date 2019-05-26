@@ -26,11 +26,20 @@ facebook_url: https://facebook.com/ash.mystic.art
 github_url:
 instagram_url: https://instagram.com/ash.mystic.art
 
+collections:
+  - portfolio-items
+
+contactform:
+  - email: andrew.scott.herman@gmail.com
+
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

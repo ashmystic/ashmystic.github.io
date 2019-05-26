@@ -40,7 +40,8 @@
 
 .button-large {
     display: inline-block;
-    padding: 15px 25px;
+    padding: 5px 10px;
+    margin: 15px 0px;
     font-size: 24px;
     cursor: pointer;
     text-align: center;
@@ -48,17 +49,17 @@
     outline: none;
     color: #fff;
     background-image: url("../images/textures/brushed-alum.png");
-    background-color: peru;
+    background-color: DarkSlateGrey;
     border: none;
-    border-radius: 10px;
-    box-shadow: 0 9px #864313;
+    border-radius: 0px;
+    box-shadow: 0 5px #333;
 }
 
 .button {
     display: inline-block;
     padding: 5px 10px;
     margin: 15px 0px;
-    font-size: 24px;
+    font-size: 14px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -75,7 +76,8 @@
     background-color: DimGray;
 }
 
-.button:active, .button.is-checked {
+.button:active, .button.is-checked,
+.button-large:active, .button-large.is-checked {
     /*background-color: chocolate;*/
     box-shadow: 0 2px #333;
     transform: translateY(3px);

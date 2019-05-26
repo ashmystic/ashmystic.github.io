@@ -1,0 +1,153 @@
+<section class="item-portfolio item-portfolio-{{ page.item-category }}">
+    <div class="container-fluid section-title">
+        <h1>Browse New Items</h1>
+    </div>
+    <div class="container container-isotope">
+
+        <h2>Filter</h2>
+        <div id="filters">
+        {% for filtergroup in page.item-filters %}
+          <div class="button-group-container">
+            <label class="button-label" for="{{ filtergroup.name }}"><h4>{{ filtergroup.name }}</h4></label>
+            <div class="button-group" name="{{ filtergroup.name }}" data-filter-group="{{ filtergroup.name }}">
+                <button class="button is-checked show-all" data-filter="*">show all</button>
+                {% for filter in filtergroup.filter-list %}
+                <button class="button" data-filter=".{{ filtergroup.name }}-{{ filter | downcase | replace: ' ', '-' | replace: '(', '-' }}">{{ filter }}</button>
+                {% endfor %}
+            </div>
+          </div>
+        {% endfor %}
+        </div>
+        <h2>Sort</h2>
+        <div id="sorts" class="button-group">
+          {% for sortValue in page.item-sorts %}
+            <button class="button {% if page.item-sorts.first == sortValue %}is-checked{% endif %}" data-sort-by="{{ sortValue | downcase | replace: ' ', '-' }}">{{ sortValue }}</button>
+          {% endfor %}
+          <!-- <button class="button is-checked" data-sort-by="date">Date</button> -->
+          <!-- <button class="button" data-sort-by="title">Title</button> -->
+          <!-- <button class="button" data-sort-by="author">Author</button> -->
+        </div>
+        <div id="sort-order" class="button-group">
+            <button class="button" data-sort-asc="true">▲</button>
+            <button class="button is-checked" data-sort-asc="false">▼</button>
+        </div>
+
+        {% if page.item-category == 'new-items' %}
+          {% assign items = (site.portfolio-items | sort: 'date'  | reverse) %}
+        {% else %}
+          {% assign items = site.portfolio-items | where:'category', page.item-category | sort: 'date' | reverse %}
+        {% endif %}
+        {% if page.number-display-items < items.size %}
+        <div class="count"><h5>Showing newest {{ page.number-display-items }} items.</h5></div>
+        {% endif %}
+        <div class="no-results"><h4>No results found. Try adjusting filters.</h4></div>
+        <div class="grid {{ page.item-category }}">
+            <!-- Get the collection -->
+
+            {% for item in items limit:page.number-display-items %}
+            {% assign content-nl-stripped = item.content | strip_newlines %}
+            <div class="grid-item {{ item.card-class }} Category-{{ item.category }} {% for medium in item.mediums %}Medium-{{ medium }} {% endfor %} {% for topic in item.topics %}Topic-{{ topic }} {% endfor %} {% for region in item.region %}Region-{{ region }} {% endfor %}" data-category="general wisdom, society">
+              {% case item.card-class %}
+                {% when 'gallery-image' %}
+                  <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
+                    View in {{ item.category | capitalize | replace: '-', ' ' }}
+                  </a>
+                  <div class="medium">{{ item.medium }}</div>
+                  <a class="image image-preview" href="#img-{{ item.title | escape | replace: ' ', '-' | replace: '(', '-' | replace: ')', '-' }}">
+                      <img src="assets/images/categories/{{ item.category }}/thumbnail/{{ item.image }}" class="">
+                      <div class="image-preview__icon">
+                          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                      </div>
+                  </a>
+                  <!-- lightbox container hidden with CSS -->
+                  <a href="#_" class="lightbox" id="img-{{ item.title |  escape | replace: ' ', '-' | replace: '(', '-' | replace: ')', '-' }}">
+                      <img data-full-image="assets/images/categories/{{ item.category }}/{{ item.image }}" src="assets/images/loading_spinner.gif">
+                  </a>
+                  <div class="title">
+                      <h4><b>{{ item.title }}</b></h4>
+                  </div>
+                  <div class="author"></div>
+                  <div class="text">{{ item.text }}</div>
+                  <div class="date">{{ item.date }}</div>
+                  <div class="date-display">{{ item.date | date_to_long_string }}</div>
+
+                  {% if content-nl-stripped.size > 0 %}
+                  <hr>
+                  <div class="text">{{ item.content }}</div>
+                  {% endif %}
+                {% when 'quote-cited' %}
+                  <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
+                    View in {{ item.category | capitalize | replace: '-', ' ' }}
+                  </a>
+                  <div class="medium">{{ item.medium }}</div>
+                  <div class="title">{{ item.title }}</div>
+                  <div class="profile">
+                    <img class="image" src="{{ item.image }}"></img>
+                    <div class="author">{{ item.author }}</div>
+                  </div>
+                  <div class="date">{{ item.date }}</div>
+                  <div class="text">"{{ item.text }}"</div>
+                  <a class="link" href="" target="_blank"></a>
+                {% when 'quote-uncited' %}
+                    <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
+                      View in {{ item.category | capitalize | replace: '-', ' ' }}
+                    </a>
+                    <div class="medium">{{ item.medium }}</div>
+                    <img class="image" src=""></img>
+                    <div class="title">{{ item.title }}</div>
+                    <div class="author"></div>
+                    <div class="date">{{ item.date }}</div>
+                    <div class="text">{{ item.text }}</div>
+                    <div class="text">{{ item.content }}</div>
+                    <a class="link" href="" target="_blank"></a>
+                {% when 'work-cited' %}
+                <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
+                  View in {{ item.category | capitalize | replace: '-', ' ' }}
+                </a>
+                  <div class="medium">{{ item.medium }}</div>
+                  <img class="image" src="{{ item.image }}"></img>
+                  <div class="title">
+                      <h4><b>{{ item.title }}</b></h4>
+                  </div>
+                  <div class="author">{{ item.author }}</div>
+                  <div class="date">{{ item.date }}</div>
+                  <a class="link" href="{{ item.link }}" target="_blank"><button class="button">View {{ item.mediums.first }}</button></a>
+                  <hr>
+                  <div class="text">{{ item.text }}</div>
+                  <div class="text">{{ item.content }}</div>
+                {% when 'work-uncited' %}
+                <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
+                  View in {{ item.category | capitalize | replace: '-', ' ' }}
+                </a>
+                  <img class="image" src="{{ item.image }}"></img>
+                  <div class="title">
+                      <h4><b>{{ item.title }}</b></h4>
+                  </div>
+                  <div class="author"></div>
+                  <div class="date">{{ item.date }}</div>
+                  <div class="date-display">{{ item.date | date_to_long_string }}</div>
+                  <div class="medium">{{ item.medium }}</div>
+                  <!-- <div class="medium-display"><h5>{{ item.medium | capitalize }}</h5></div> -->
+                  <div class="text">{{ item.text }}</div>
+                  <div class="text">{{ item.content }}</div>
+                  <a class="link" href="{{ item.link }}" target="_blank"><button class="button">View {{ item.mediums.first }}</button></a>
+                {% else %}
+                <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
+                  View in {{ item.category | capitalize | replace: '-', ' ' }}
+                </a>
+                  <div class="medium">{{ item.medium }}</div>
+                  <img class="image" src="{{ item.image }}"></img>
+                  <div class="title">
+                      <h4><b>{{ item.title }}</b></h4>
+                  </div>
+                  <div class="author">{{ item.author }}</div>
+                  <div class="text">{{ item.text }}</div>
+                  <div class="date">{{ item.date }}</div>
+                  <div class="date-display">{{ item.date | date_to_long_string }}</div>
+                  <a class="link" href="{{ item.link }}" target="_blank"><button class="button">View {{ item.mediums.first }}</button></a>
+              {% endcase %}
+              </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

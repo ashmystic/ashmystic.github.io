@@ -1,0 +1,100 @@
+---
+id: art-gallery
+layout: default
+---
+  <div class="container-fluid page-header" id="page-header-art-gallery">
+    <div class="row">
+      <div class="col-sm-12 page-header__title">
+        <h1>Comissioned Art & Collaboration</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid page-section">
+    <div class="row">
+      <div class="col-sm-12 page-section">
+        <h4>I offer commissioned work focusing on geometric and esoteric illustrations. I incorporate one or more styles including pen & watercolor, algorithmic illustration and digital photomontage. Below are some selected examples.
+          <br>
+          <br>
+        Please fill out the form and the end of the page to inquire about commissioned works and collaboration opportunities!</h4>
+      </div>
+    </div>
+  </div>
+<section class="item-portfolio item-portfolio-{{ page.item-category }}">
+
+
+
+    <div class="container-fluid container-isotope">
+
+        <h2 class="grid-filter-header">Filter</h2>
+        <div id="filters">
+        {% for filtergroup in page.item-filters %}
+          <div class="button-group-container">
+            <label class="button-label" for="{{ filtergroup.name }}"><h4>{{ filtergroup.name }}</h4></label>
+            <div class="button-group" name="{{ filtergroup.name }}" data-filter-group="{{ filtergroup.name }}">
+                <button class="button is-checked show-all" data-filter="*">show all</button>
+                {% for filter in filtergroup.filter-list %}
+                <button class="button" data-filter=".{{ filtergroup.name }}-{{ filter | downcase | replace: ' ', '-' | replace: '(', '-' }}">{{ filter }}</button>
+                {% endfor %}
+            </div>
+          </div>
+        {% endfor %}
+        </div>
+        <h2 class="grid-filter-header">Sort</h2>
+        <div id="sorts" class="button-group">
+          {% for sortValue in page.item-sorts %}
+            <button class="button {% if page.item-sorts.first == sortValue %}is-checked{% endif %}" data-sort-by="{{ sortValue | downcase | replace: ' ', '-' }}">{{ sortValue }}</button>
+          {% endfor %}
+          <!-- <button class="button is-checked" data-sort-by="date">Date</button> -->
+          <!-- <button class="button" data-sort-by="title">Title</button> -->
+          <!-- <button class="button" data-sort-by="author">Author</button> -->
+        </div>
+        <div id="sort-order" class="button-group">
+            <button class="button" data-sort-asc="true">▲</button>
+            <button class="button is-checked" data-sort-asc="false">▼</button>
+        </div>
+       
+        {% assign items = site.portfolio-items %}
+        {% if page.number-display-items < items.size %}
+        <div class="count"><h5>Showing newest {{ page.number-display-items }} items.</h5></div>
+        {% endif %}
+        <div class="no-results"><h4>No results found. Try adjusting filters.</h4></div>
+        <div class="grid {{ page.item-category }}">
+            <!-- Get the collection -->
+
+            {% for item in items  %}
+            {% assign content-nl-stripped = item.content | strip_newlines %}
+            <div class="grid-item {{ item.card-class }} Category-{{ item.category }} {% for medium in item.mediums %}Medium-{{ medium }} {% endfor %} {% for topic in item.topics %}Topic-{{ topic }} {% endfor %} {% for region in item.region %}Region-{{ region }} {% endfor %}" data-category="general wisdom, society">
+              {% case item.card-class %}
+                {% when 'gallery-image' %}
+                  <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
+                    View in {{ item.category | capitalize | replace: '-', ' ' }}
+                  </a>
+                  <div class="medium">{{ item.medium }}</div>
+                  <a class="image image-preview" href="#img-{{ item.title | escape | replace: ' ', '-' | replace: '(', '-' | replace: ')', '-' }}">
+                      <img src="assets/images/portfolio-items/thumbnail/{{ item.image }}" class="">
+                      <div class="image-preview__icon">
+                          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                      </div>
+                  </a>
+                  <!-- lightbox container hidden with CSS -->
+                  <a href="#_" class="lightbox" id="img-{{ item.title |  escape | replace: ' ', '-' | replace: '(', '-' | replace: ')', '-' }}">
+                      <img data-full-image="assets/images/portfolio-items/{{ item.image }}" src="assets/images/loading_spinner.gif">
+                  </a>
+                  <div class="title">
+                      <h4><b>{{ item.title }}</b></h4>
+                  </div>
+                  <div class="author"></div>
+                  <div class="text">{{ item.text }}</div>
+                  <!-- <div class="date">{{ item.date }}</div> -->
+                  <!-- <div class="date-display">{{ item.date | date_to_long_string }}</div> -->
+
+                  {% if content-nl-stripped.size > 0 %}
+                  <hr>
+                  <div class="text">{{ item.content }}</div>
+                  {% endif %}
+              {% endcase %}
+              </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
