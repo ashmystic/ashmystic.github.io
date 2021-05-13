@@ -29,8 +29,7 @@ instagram_url: https://instagram.com/ash.mystic.art
 collections:
   - portfolio-items
 
-contactform:
-  - email: andrew.scott.herman@gmail.com
+contactform_endpoint: https://formspree.io/f/xleajbgl
 
 # Build settings
 markdown: kramdown
