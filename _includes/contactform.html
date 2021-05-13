@@ -7,7 +7,7 @@
 <div class="container-fluid" id="contactform">
     <div class="container ">
         <h3>Get In Touch!</h3>
-        <form method="POST" action="https://formspree.io/{{ site.email }}">
+        <form method="POST" action="{{ site.contactform_endpoint }}">
               <div class="form-group">
                 <input type="email" class="form-control" name="email" placeholder="Your email">
                 <br>
