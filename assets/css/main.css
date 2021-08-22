@@ -52,7 +52,6 @@ display:block;
 
 .page-header {
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   background-position: right 50% bottom 30%;
   color: white;
@@ -64,7 +63,6 @@ display:block;
 @media (min-width: 150px) and (max-width: 475px) {
   .page-header {
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: 100% 300px;
     background-position: right 50% bottom 100%;
     color: white;
