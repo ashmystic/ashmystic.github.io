@@ -17,8 +17,6 @@ Here’s a recent project I completed and some history I’d like to share!
 
 I designed this LEGO enclosure for an essential oil diffuser inspired by the asclepeion, which were holistic healing sanctuaries in ancient Greece. Asclepeions were dedicated to the Greek god of medicine, Asclepius (son of Apollo). He is the father to Hygeia and Panacea- goddess of medicine. Asclepeions usually incorporated a temple for prayer, healing baths/springs, lush nature, and dream incubation halls. Priests offered dream interpretations for patients to guide them on their path towards healing. Patients were also served hallucinogenic substances as part of the ceremony.
 
-
-
 <img class="post-image-fullwidth" src="/assets/images/posts/2021-11-19-lego_asclepeion/lego_asclepeion_1.jpg" alt="lego_asclepeion_1"/>
 <img class="post-image-halfwidth" src="/assets/images/posts/2021-11-19-lego_asclepeion/lego_asclepeion_2.jpg" alt="lego_asclepeion_2">
 <img class="post-image-halfwidth" src="/assets/images/posts/2021-11-19-lego_asclepeion/lego_asclepeion_3.jpg" alt="lego_asclepeion_3">

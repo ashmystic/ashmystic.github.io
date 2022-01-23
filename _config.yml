@@ -31,6 +31,14 @@ collections:
 
 contactform_endpoint: https://formspree.io/f/xleajbgl
 
+defaults:
+  # Journals
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      permalink: blog/:year-:month-:day-:title
+
 # Build settings
 markdown: kramdown
 theme: minima

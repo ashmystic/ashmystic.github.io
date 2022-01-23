@@ -20,7 +20,7 @@
  	margin: 50px;
 	background-color:rgba(75,75,75,0.7);
 }
-@media screen and ( max-width: 540px) {
+@media screen and ( max-width: 770px) {
 	#emailsignup {
 		color: white;
 		background-image: url("../images/drawing_example.JPG") !important;
