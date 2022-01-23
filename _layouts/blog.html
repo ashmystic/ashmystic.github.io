@@ -1,0 +1,79 @@
+---
+id: blog
+layout: default
+---
+  <div class="container-fluid page-header" id="page-header-blog">
+    <div class="row">
+      <div class="col-sm-12 page-header__title">
+        <h1>{{ page.title }}</h1>
+        <!-- <h3>{{ page.subtitle }}</h3> -->
+      </div>
+    </div>
+  </div>
+
+
+<section class="item-portfolio item-portfolio-{{ page.item-category }}">
+
+    <div class="container-fluid container-isotope">
+
+        <h2 class="grid-filter-header">Filter</h2>
+        <div id="filters">
+        {% for filtergroup in page.item-filters %}
+          <div class="button-group-container">
+            <label class="button-label" for="{{ filtergroup.name }}"><h4>{{ filtergroup.name }}</h4></label>
+            <div class="button-group" name="{{ filtergroup.name }}" data-filter-group="{{ filtergroup.name }}">
+                <button class="button is-checked show-all" data-filter="*">show all</button>
+                {% for filter in filtergroup.filter-list %}
+                <button class="button" data-filter=".{{ filtergroup.name }}-{{ filter | downcase | replace: ' ', '-' | replace: '(', '-' }}">{{ filter }}</button>
+                {% endfor %}
+            </div>
+          </div>
+        {% endfor %}
+        </div>
+        <h2 class="grid-filter-header">Sort</h2>
+        <div id="sorts" class="button-group">
+          {% for sortValue in page.item-sorts %}
+            <button class="button {% if page.item-sorts.first == sortValue %}is-checked{% endif %}" data-sort-by="{{ sortValue | downcase | replace: ' ', '-' }}">{{ sortValue }}</button>
+          {% endfor %}
+          <!-- <button class="button is-checked" data-sort-by="date">Date</button> -->
+          <!-- <button class="button" data-sort-by="title">Title</button> -->
+          <!-- <button class="button" data-sort-by="author">Author</button> -->
+        </div>
+        <div id="sort-order" class="button-group">
+            <button class="button" data-sort-asc="true">▲</button>
+            <button class="button is-checked" data-sort-asc="false">▼</button>
+        </div>
+
+        <!-- {% assign items = site.portfolio-items | where:'category', page.item-category%} -->
+        {% assign posts = site.posts %}
+        {% if page.number-display-items < posts.size %}
+        <div class="count"><h5>Showing newest {{ page.number-display-items }} posts.</h5></div>
+        {% endif %}
+        <div class="no-results"><h4>No results found. Try adjusting filters.</h4></div>
+        <!-- <div class="grid {{ page.item-category }}"> -->
+        <div class="grid ">
+            <!-- Get the collection -->
+
+            {% for post in site.posts  %}
+            {% assign content-nl-stripped = post.content | strip_newlines %}
+            <div class="grid-item {{ post.card-class }} Category-{{ post.category }} {% for topic in item.topics %}Topic-{{ topic }} {% endfor %} {% for region in item.region %}Region-{{ region }} {% endfor %}" data-category="general wisdom, society">
+                <div class="image">
+                    <a href="{{ post.url }}"><img src="{{ post.image}}"></img></a>
+                </div>
+                <div class="post-subtitle">
+                   {{ post.date | date_to_long_string}}
+                </div>
+                <div class="title">
+                    <h4><b>{{ post.title }}</b></h4>
+                </div>
+                <div class="excerpt">
+                    {{ post.excerpt | truncate: 150 }}
+                </div>
+                <div class="link">
+                    <a href="{{ post.url }}"><button class="button">View post</button></a>
+                </div>
+              </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

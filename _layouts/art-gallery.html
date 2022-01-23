@@ -53,7 +53,7 @@ layout: default
             <button class="button is-checked" data-sort-asc="false">▼</button>
         </div>
        
-        {% assign items = site.portfolio-items %}
+        {% assign items = site.portfolio-items | where:'category', page.item-category%}
         {% if page.number-display-items < items.size %}
         <div class="count"><h5>Showing newest {{ page.number-display-items }} items.</h5></div>
         {% endif %}

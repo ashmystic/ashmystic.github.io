@@ -76,13 +76,17 @@
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
+.excerpt {
+    
+}
+
 .grid-item a {
     color: AntiqueWhite;
 }
 
 .grid-item .link,
 .grid-item .line {
-    margin: 10px 10px;
+    /* margin: 10px 10px; */
     font-size: 1.2em;
 }
 .grid-item .link:hover {
@@ -92,8 +96,9 @@
 .grid-item .medium-display,
 .grid-item .date-display,
 .grid-item .title,
-.grid-item .text {
-    margin: 0px 10px;
+.grid-item .excerpt,
+.grid-item .link {
+    margin: .5rem 1rem;
 }
 
 .grid-item .date,
@@ -129,6 +134,11 @@ div.new-items .grid-item .category:hover {
 .grid-item.work-uncited .image img,
 .grid-item.gallery-image .image,
 .grid-item.gallery-image .image img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.grid-item .image img {
     display: block;
     margin: auto;
     width: 100%;
