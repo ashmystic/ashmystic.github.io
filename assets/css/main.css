@@ -178,7 +178,7 @@ display:block;
   width: clamp(45ch, 60%, 75ch);
   text-align: justify;
   margin: auto;
-  font-size: clamp(1rem, 3vw, 2rem);
+  font-size: clamp(1.2rem, 3vw, 2rem);
   /* padding: 1rem; */
 }
 
