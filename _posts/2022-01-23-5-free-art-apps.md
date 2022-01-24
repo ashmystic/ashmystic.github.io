@@ -76,7 +76,7 @@ The free versions of these apps often have lower maximum resolution than the pai
 #### Available on: https://colab.research.google.com/drive/1lx9AGsrh7MlyJhK9UrNTK8pYpARnx457?usp=sharing
 #### Cost: Free with slower compute times (I recommend the $10/month Pro plan)
 
-If the generative art of StarryAI intrigues you but you want more control and power than what it can provide, I recommend looking into VQGAN+CLIP. It's a powerful machine learning model that you can acess onlnie fairly easily through Google Collab. It's more advanced than the other tools but is pretty straightforward it you read through the instuctions. You can use it for free, but I highly recommend the $10/monthh Google Collab Pro plan. It makes the art generation go much faster! Here's a video by the YouTube Channel AI Whisperer that gives a good intro of how it works!
+If the generative art of StarryAI intrigues you but you want more control and power than what it can provide, I recommend looking into VQGAN+CLIP. It's a powerful machine learning model that you can access online fairly easily through Google Collab. It's more advanced than the other tools but is pretty straightforward if you read through the instuctions. You can use it for free, but I highly recommend the $10/monthh Google Collab Pro plan. It makes the art generation go much faster! Here's a video by the YouTube Channel AI Whisperer that gives a good intro of how it works!
  
  
 <iframe class="post-video" src="https://www.youtube.com/embed/2hgfbf5OOoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
