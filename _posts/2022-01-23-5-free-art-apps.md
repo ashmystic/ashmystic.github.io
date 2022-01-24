@@ -31,7 +31,7 @@ Petalica Paint (formerly known as Paintschainer) will intelligently color-in a b
 
 Prisma takes an image and applies filters to turn it into a particular style of art. It has a large library of 700+ styles to chosoe from. It pairs great with Petalica Paint. In the example I took the mushroom and sun image I made and applied the "Paris" style.
 
-<img class="post-image-fullwidth" src="/assets/images/posts/2022-01-23-5-free-art-apps/prisma.jpg" alt="prisma art"/>
+<img class="post-image-fullwidth" src="/assets/images/posts/2022-01-23-5-free-art-apps/prisma.JPG" alt="prisma art"/>
 
 ### 3. WeaveSilk
 
