@@ -40,7 +40,7 @@ Prisma takes an image and applies filters to turn it into a particular style of 
 
 WeaveSilk is on the "simple" end of the app spectrum. With a few strokes you can make stunning images full of wispy colorful lines. The simple menu lets you select different symmetries, so you can make elaborate mandalas, etherial figures or assymetrical designs. Each of the images shown I did in 20 seconds or less.
 
-<img class="post-image-halfwidth" src="/assets/images/posts/2022-01-23-5-free-art-apps/weavesilk_1.jpg" alt="weavesilk 1 art"/>
+<img class="post-image-fullwidth" src="/assets/images/posts/2022-01-23-5-free-art-apps/weavesilk_1.jpg" alt="weavesilk 1 art"/>
 <img class="post-image-halfwidth" src="/assets/images/posts/2022-01-23-5-free-art-apps/weavesilk_2.jpg" alt="weavesilk 2 art"/>
 <img class="post-image-halfwidth" src="/assets/images/posts/2022-01-23-5-free-art-apps/weavesilk_3.jpg" alt="weavesilk 3 art"/>
 
