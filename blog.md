@@ -14,7 +14,7 @@ item-filters:
       name: "Category"
       filter-list:
         - "Projects"
-        - "Resources"
+        - "Tools"
         - "News"
 item-sorts:
     - "Date"
