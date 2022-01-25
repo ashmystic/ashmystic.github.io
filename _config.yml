@@ -25,6 +25,7 @@ github_username:  ashmystic
 facebook_url: https://facebook.com/ash.mystic.art
 github_url:
 instagram_url: https://instagram.com/ash.mystic.art
+google_analytics: true
 
 collections:
   - portfolio-items
