@@ -8,15 +8,15 @@ title-slug: free_spirit
 card-class: blog-post
 author: Ash Mystic
 date: 2022-03-11
-excerpt: Today is Red Rhythmic Moon in the Dreamspell Calendar, which both represents the power of Universal Water/Flow. It inspired me to play this song "The River" by Aurora, which is about releasing emotion.
+excerpt: To be a free spirit- to flow in the present moment- requires discipline to create and follow our own structures. We must trust the feelings and messages and signs within and around us from moment to moment. We must trust in a new paradigm of being.
 ---
 
 <img class="post-image-fullwidth" src="/assets/images/posts/2022-03-11-free-spirit/free_spirit.JPG" alt="free spirit digital art"/>
 
 Above art: "Free Spirit"
 
-## Is your spirit free?
-### The connection between freedom, structure and the present moment.
+### Is your spirit free?
+#### The connection between freedom, structure and the present moment.
 
 🌞🏛 Structure (e.g. routines, plans, commitments, jobs, hierarchy, institutions) represent the gift of the divine masculine: a safe container and safety net to play within.
 
