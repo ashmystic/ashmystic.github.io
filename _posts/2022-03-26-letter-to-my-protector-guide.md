@@ -17,7 +17,7 @@ Above art: "My Protector Guide, Hagen"
 
 Here’s a poem I wrote yesterday as part of my weekly poetry group. The theme was writing a letter to someone/something. I decided to write it to my Protector Spirit Guide, Hagen! I drew the sketch as part of an activity last year with [The Current Way](https://www.facebook.com/TheCurrentWay/) Metaphysical and Spiritual Development Group, which was meant to connect us with our spirit guides. (The Current Way meets on Zoom and in Gates Mills, Ohio every Tuesday evening if you’d like to join!)
 
-According to Spiritualism, everyone has a gropup of core spirit guides, including a protector. If you'd like to connect with youer own, reading this poem may help initiate a conversation with them!
+According to Spiritualism, everyone has a group of core spirit guides, including a protector. If you'd like to connect with your own, reading this poem may help initiate a conversation with them!
 
 ### "Letter to my Protector Guide"
 
