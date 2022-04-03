@@ -2,7 +2,7 @@
 layout: post
 category:
   - projects
-image: /assets/images/posts/2022-04-03-i-am-you-are/Starseed_gif_compressed.gif
+image: /assets/images/posts/2022-04-03-i-am-you-are/Starseed_thumbnail.JPG
 title:  "Poem: I am, You Are"
 title-slug: poem-i-am-you-are
 card-class: blog-post
