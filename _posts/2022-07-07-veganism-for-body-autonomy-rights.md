@@ -36,6 +36,6 @@ Going Vegan is a powerful tool because it is something each of us can do right n
 
 I used to eat meat, dairy or eggs at every single meal until I was about 26 years old, and would scoff at the idea of eating only plants. But I’ve been Vegan for over 4 years now! I can attest to the fact that it gets a lot easier and less overwhelming over time. And it doesn’t have to happen all at once. It’s a process, and like any change there will more than likely be setbacks and challenges. There sure were for me. But I am so glad I persevered! And on top of the spiritual reasons for a Vegan diet, there are countless health and environmental reasons for doing so too!
 
-To learn more about the impact of factory farms on animals I recommend [MercyForAnimals.org](https://mercyforanimals.org). And if you’re ready to consider a Vegan diet, a good resource to get started is [VeganSociety.com](https://www.vegansociety.com) or [Vegan.com](https://Vegan.com)! Or feel free to message me :)
+To learn more about the impact of factory farms on animals I recommend <a href="https://mercyforanimals.org" target="_blank">MercyForAnimals.org</a>. And if you’re ready to consider a Vegan diet, a good resource to get started is <a href="https://www.vegansociety.com" target="_blank">VeganSociety.com</a> or <a href="https://Vegan.com" target="_blank">Vegan.com</a>! Or feel free to message me :)
 
 -Ash
