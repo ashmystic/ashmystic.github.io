@@ -33,14 +33,23 @@ Art: "Eclipse Intention Intuitive Drawing"
 
 ### Eclipse Cleanse Guided Meditation:
 
- 🌕 As the full sun is in view, I am aware of my full life energy and current self.
+🌕 As the full sun is in view, I am aware of my full life energy and current self.
+
 🌔 As the partial eclipse begins and grows, I start to become aware of dark or negative energy and patterns within me.
+
 🌓 As the moon covers half of the sun, I am simultaneously aware of the light and dark energies within me.
+
 🌒 Almost fully eclipsed, I release fear of going into the dark.
+
 ◉ As the total eclipse shrouds the whole sun, I am fully aware of dark energy within me. At the same time, I observe the sun’s corona surrounding the eclipse, and I am aware of my inner pilot light that provides me eternal hope and guidance. I give myself permission to look my dark aspects in the face, because I know they do not define me. This observation robs my darkness of its power, and enables me to let go of it for good.
+
 🌘 As the sun pierces back through I sense my previous dark energy dissipating. I feel "lightness" coming over me.
+
 🌗 Light now balances dark. I have healed, and I continue to heal.
+
 🌖 Light once again outshines dark. A feeling of ease comes over me.
+
 🌕 Once again I am fully bathed in the light of the sun. I appreciate the sun for what it gives, and I appreciate the moon for what it gives. I appreciate myself for what I give, and what I am – both the light and the dark. I am aware of my new, current, healed self.
+
 🌕 🌖 🌗 🌘 ◉ 🌒 🌓 🌔 🌕
 
