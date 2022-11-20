@@ -2,7 +2,7 @@
 layout: post
 category:
   - tools
-image: /assets/images/posts/2022-11-20-supernova-transmutation/man_supernova_art.jpg
+image: /assets/images/posts/2022-11-20-supernova-transmutation/man_supernova_art.JPG
 title:  "Going Supernova to Transmute Rage"
 title-slug: supernova-transmutation
 card-class: blog-post
