@@ -15,6 +15,8 @@ excerpt: Our emotions need an outlet, and one way or another they’ll get out. 
 
 Above art: "Man Going Supernova" (created using MidJourney AI v4)
 
+### Going Supernova to Transmute Rage
+
 Do you ever feel intense rage/anger/frustration that you struggle to let go of or process? Our emotions need an outlet, and one way or another they’ll get out- whether it’s healthy or harmful. Many get benefit through physical release like exercise or hurling heavy objects and yelling (importantly: in a safe space by yourself where it is not directed at anyone!) There are even businesses called "rage rooms" where you can go shatter plates and yell in a sound-insulated space. I think it’s great that society is starting to validate and support the importance of releasing emotions in a healthy way so we don’t end up hurting others or themselves. I would personally prefer if we don’t physically destroy objects though. And having to drive to a special place and pay a fee and possibly overcome embarrassment are all barriers to having this service.
 
 I’ve started a simple practice I can do anytime and anywhere that doesn’t draw attention and really helps me release anger and frustration. While standing or walking, I clench my fists and tense up all my muscles as much as I can, including my jaw, eyes, forehead, neck, shoulders, arms, torso, stomach, thighs and feet. At the same time, I visualize myself "going supernova". I imagine I am an exploding star full of immense energy that burned too bright and is now expanding and dissipating into the far reaches of the universe. I imagine a quasar of plasma reaching out light-years above and below me. I imagine I am a burning ball of rage and power: a force capable of immense creation and destruction.
