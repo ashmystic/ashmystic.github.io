@@ -3,16 +3,16 @@ layout: post
 category:
   - tools
   - projects
-image: /assets/images/posts/12-09-2022-holistic-healing-2023-art-calendar/the_pure_light_within_you.jpg
+image: /assets/images/posts/2022-12-09-holistic-healing-2023-art-calendar/the_pure_light_within_you.jpg
 title:  "Holistic Healing 2023 Art Calendar"
-title-slug: holistic-healing-2023-art-calendar-12-09-2022
+title-slug: 2022-12-09-holistic-healing-2023-art-calendar
 card-class: blog-post
 author: Ash Mystic
 date: 2022-12-09
 excerpt: Art in general has and continues to be a huge party of my health and wellness journey. From experience I know that the actual process of making art, as well as the content of the art both contribute to its therapeutic and healing properties.
 ---
 
-<img class="post-image-fullwidth" src="/assets/images/posts/12-09-2022-holistic-healing-2023-art-calendar/holistic_healing_art_calendar_cover.jpg" alt="The Pure Light Within You chakra art"/>
+<img class="post-image-fullwidth" src="/assets/images/posts/2022-12-09-holistic-healing-2023-art-calendar/holistic_healing_art_calendar_cover.jpg" alt="The Pure Light Within You chakra art"/>
 
 Above art: "The Pure Light Within You"
 
@@ -38,7 +38,7 @@ This page is meant to go along with the art calendar I designed and printed for 
 
 ### January: "Aquari Tetrahedra"
 
-<img class="post-image-fullwidth" src="/assets/images/posts/12-09-2022-holistic-healing-2023-art-calendar/aquari_tetrahedra.jpg" alt="Aquari Tetrahedra Vector Equilibrium sacred geometry art"/>
+<img class="post-image-fullwidth" src="/assets/images/posts/2022-12-09-holistic-healing-2023-art-calendar/aquari_tetrahedra.jpg" alt="Aquari Tetrahedra Vector Equilibrium sacred geometry art"/>
 
 Above art: "Aquari Tetrahedra", pen and digital color
 
@@ -59,7 +59,7 @@ I designed this LEGO building based on the "Asclepeion", which were holistic hea
 
 ### March: "Digits of Pi"
 
-<img class="post-image-fullwidth" src="/assets/images/posts/12-09-2022-holistic-healing-2023-art-calendar/digits_of_pi.jpg" alt="Digits of Pi art"/>
+<img class="post-image-fullwidth" src="/assets/images/posts/2022-12-09-holistic-healing-2023-art-calendar/digits_of_pi.jpg" alt="Digits of Pi art"/>
 
 Above art: "Digits of Pi", digital illustration
 
@@ -70,11 +70,11 @@ What is meaningful to me about this art piece is that pi has a simple geometric 
 
 ### April: "Pachamama" and "Liberation"
 
-<img class="post-image-fullwidth" src="/assets/images/posts/12-09-2022-holistic-healing-2023-art-calendar/pachamama.jpg" alt="Pachamama Earth crying art"/>
+<img class="post-image-fullwidth" src="/assets/images/posts/2022-12-09-holistic-healing-2023-art-calendar/pachamama.jpg" alt="Pachamama Earth crying art"/>
 
 Above art: "Pachamama", pen and watercolor
 
-<img class="post-image-fullwidth" src="/assets/images/posts/12-09-2022-holistic-healing-2023-art-calendar/liberation.jpg" alt="Liberation art"/>
+<img class="post-image-fullwidth" src="/assets/images/posts/2022-12-09-holistic-healing-2023-art-calendar/liberation.jpg" alt="Liberation art"/>
 
 Above art: "Liberation", pen and watercolor
 
@@ -90,7 +90,7 @@ Pachamama was drawn for Earth Day, depicting Gaia (Earth) as a conscious being m
 
 ### May: "Chalk Mandala"
 
-<img class="post-image-fullwidth" src="/assets/images/posts/12-09-2022-holistic-healing-2023-art-calendar/chalk_mandala.jpg" alt="Chalk Mandala art"/>
+<img class="post-image-fullwidth" src="/assets/images/posts/2022-12-09-holistic-healing-2023-art-calendar/chalk_mandala.jpg" alt="Chalk Mandala art"/>
 
 Above art: "Chalk Mandala", sidewalk chalk
 
@@ -98,11 +98,11 @@ I walked through an outdoor shopping center one day and saw chalk set up outside
 
 ### June: "Illuminated Shadow" and "Distillery of Light"
 
-<img class="post-image-fullwidth" src="/assets/images/posts/12-09-2022-holistic-healing-2023-art-calendar/illuminated_shadow.jpg" alt="Illuminated Shadow art"/>
+<img class="post-image-fullwidth" src="/assets/images/posts/2022-12-09-holistic-healing-2023-art-calendar/illuminated_shadow.jpg" alt="Illuminated Shadow art"/>
 
 Above art: "Illuminated Shadow", pen and watercolor
 
-<img class="post-image-fullwidth" src="/assets/images/posts/12-09-2022-holistic-healing-2023-art-calendar/distillery_of_light.jpg" alt="Distillery of Light art"/>
+<img class="post-image-fullwidth" src="/assets/images/posts/2022-12-09-holistic-healing-2023-art-calendar/distillery_of_light.jpg" alt="Distillery of Light art"/>
 
 Above art: "Distillery of Light", pen and watercolor
 
@@ -129,11 +129,11 @@ I made this art to go with a metaphysical insight I had about the connection bet
 
 ### August: "Camping Trip" and "Impregnated with Light"
 
-<img class="post-image-fullwidth" src="/assets/images/posts/12-09-2022-holistic-healing-2023-art-calendar/camping_trip.jpg" alt="Camping Trip art"/>
+<img class="post-image-fullwidth" src="/assets/images/posts/2022-12-09-holistic-healing-2023-art-calendar/camping_trip.jpg" alt="Camping Trip art"/>
 
 Above art: "Camping Trip", digital photo collage
 
-<img class="post-image-fullwidth" src="/assets/images/posts/12-09-2022-holistic-healing-2023-art-calendar/impregnated_with_light.jpg" alt="Impregnated with Light art"/>
+<img class="post-image-fullwidth" src="/assets/images/posts/2022-12-09-holistic-healing-2023-art-calendar/impregnated_with_light.jpg" alt="Impregnated with Light art"/>
 
 Above art: "Impregnated with Light", pen and digital color
 
@@ -143,7 +143,7 @@ The title of the first art is a play on the word "trip", inspired by sacramental
 
 ### September: "McKinney Falls State Park"
 
-<img class="post-image-fullwidth" src="/assets/images/posts/12-09-2022-holistic-healing-2023-art-calendar/mckinney_falls_state_park.jpg" alt="McKinney Falls State Park art"/>
+<img class="post-image-fullwidth" src="/assets/images/posts/2022-12-09-holistic-healing-2023-art-calendar/mckinney_falls_state_park.jpg" alt="McKinney Falls State Park art"/>
 
 Above art: "McKinney Falls State Park", digital photo montage
 
@@ -151,7 +151,7 @@ McKinney Falls State Park in Austin, Texas is the site of some of my most profou
 
 ### October: "Hopi Prophecy Fulfilled"
 
-<img class="post-image-fullwidth" src="/assets/images/posts/12-09-2022-holistic-healing-2023-art-calendar/hopi_prophecy_fulfilled.jpg" alt="Hopi Prophecy art"/>
+<img class="post-image-fullwidth" src="/assets/images/posts/2022-12-09-holistic-healing-2023-art-calendar/hopi_prophecy_fulfilled.jpg" alt="Hopi Prophecy art"/>
 
 Above art: "Hopi Prophecy Fulfilled", Digital illustration
 
@@ -167,7 +167,7 @@ To the North He gave the white race of people the Guardianship of the fire. If y
 
 ### November: "Connecting with the Roots"
 
-<img class="post-image-fullwidth" src="/assets/images/posts/12-09-2022-holistic-healing-2023-art-calendar/connecting_with_the_roots.jpg" alt="Connecting with the Roots art"/>
+<img class="post-image-fullwidth" src="/assets/images/posts/2022-12-09-holistic-healing-2023-art-calendar/connecting_with_the_roots.jpg" alt="Connecting with the Roots art"/>
 
 Above art: "Connecting with the Roots", colored pencil
 
