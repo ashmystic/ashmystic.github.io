@@ -20,6 +20,22 @@ Above art: "The Pure Light Within You"
 
 This page is meant to go along with the art calendar I designed and printed for 2023! Below are descriptions of the art for each month and how it ties in to the "Holistic Healing" theme of the calendar. Art in general has and continues to be a huge party of my health and wellness journey. (This calendar focuses on visual art, but poetry, music and dance are just as - if not even more - therapeutic for me. Maybe future calendars will feature those other mediums!) From experience I know that the actual process of making art, as well as the content of the art both contribute to its therapeutic and healing properties.
 
+### Table of Contents
+
+* <a href="#january-aquari-tetrahedra">January: Aquari Tetrahedra</a>
+* <a href="#february-lego-asclepeion">February: LEGO Asclepeion</a>
+* <a href="#march-digits-of-pi">March: Digits of Pi</a>
+* <a href="#april-pachamama-and-liberation">April: Pachamama and Liberation</a>
+* <a href="#may-chalk-mandala">May: Chalk Mandala</a>
+* <a href="#june-illuminated-shadow-and-distillery-of-light">June: Illuminated Shadow and Distillery of Light</a>
+* <a href="#july-free-spirit">July: Free Spirit</a>
+* <a href="#august-camping-trip-and-impregnated-with-light">August: Camping Trip and Impregnated with Light</a>
+* <a href="#september-mckinney-falls-state-park">September: McKinney Falls State Park</a>
+* <a href="#october-hopi-prophecy-fulfilled">October: Hopi Prophecy Fulfilled</a>
+* <a href="#november-connecting-with-the-roots">November: Connecting with the Roots</a>
+* <a href="#december-starseeds">December: Starseeds</a>
+
+
 ### January: "Aquari Tetrahedra"
 
 <img class="post-image-fullwidth" src="/assets/images/posts/12-09-2022-holistic-healing-2023-art-calendar/aquari_tetrahedra.jpg" alt="Aquari Tetrahedra Vector Equilibrium sacred geometry art"/>
@@ -133,13 +149,13 @@ Above art: "McKinney Falls State Park", digital photo montage
 
 McKinney Falls State Park in Austin, Texas is the site of some of my most profound experiences communing with nature. Nature has always been my primary healing balm and source of inspiration!
 
-### October: "Hopi Prophecy: 4 Nations"
+### October: "Hopi Prophecy Fulfilled"
 
 <img class="post-image-fullwidth" src="/assets/images/posts/12-09-2022-holistic-healing-2023-art-calendar/hopi_prophecy_fulfilled.jpg" alt="Hopi Prophecy art"/>
 
 Above art: "Hopi Prophecy Fulfilled", Digital illustration
 
-This art is inspired by the great Hopi Prophecy, fortelling the reunification of the 4 Nations of Earth. If you pay attention to politics you may notice a lot of "white hate" and shame going around in contemporary "woke" culture (including from white people) which I think is toxic, racist and...well... hateful. Enough said? The perspective of this prophecy helps alleviate that toxic vison. It's been an importantb part of my healnig journey to refuse the shame that is cast. Below is an excerpt of the prophecy from <a href="https://bahai-library.com/brown_american_indian_prophecies" target="_blank">the Bahai Library site</a>:
+This art is inspired by the great Hopi Prophecy, fortelling the reunification of the 4 Nations of Earth. If you pay attention to politics you may notice a lot of "white hate", guilt and shame going around in contemporary "woke" culture (including from white people) which I think is toxic, racist and...well... hateful. Enough said? The perspective of this prophecy helps alleviate that toxic vison. It's been an important part of my healing journey to refuse the shame that is cast. Of course thre are many ways to improve and cause less suffering, but I beleive the mainstream politically-correct narrative is quite biased and close-minded. Below is an excerpt of the prophecy from <a href="https://bahai-library.com/brown_american_indian_prophecies" target="_blank">the Bahai Library site</a>:
 
 "At the beginning of this cycle of time, long ago, the Great Spirit came down and He made an appearance and He gathered the peoples of this earth together -- they say on an island which is now beneath the water -- and He said to the human beings, "I'm going to send you to four directions and over time I'm going to change you to four colors, but I'm going to give you some teachings and you will call these the Original Teachings and when you come back together with each other you will share these so that you can live and have peace on earth, and a great civilization will come about.
 …
