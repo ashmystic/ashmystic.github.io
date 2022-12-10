@@ -173,8 +173,8 @@ Above art: "Connecting with the Roots", colored pencil
 
 This art is based on one of the most profound songs I've ever heard: "Let It In" by Ayla Nereo. It speaks to my soul so deeply. It beckons us to tune into the deepest parts of ourselves and live our soul's purpose with courage and adventure!
 
-Here's a Youtube playlist I made with multiple powerful versions of the song:
-https://music.youtube.com/playlist?list=PL1JDn0oFJstt4Y5d1_iuXq3yeB4gomH4E&feature=share
+<a href="https://music.youtube.com/playlist?list=PL1JDn0oFJstt4Y5d1_iuXq3yeB4gomH4E&feature=share" target="_blank">Here's a Youtube playlist</a> I made with multiple powerful versions of the song.
+
 
 ### December: "Starseeds"
 
