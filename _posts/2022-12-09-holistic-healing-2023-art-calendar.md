@@ -6,6 +6,7 @@ category:
 image: /assets/images/posts/2022-12-09-holistic-healing-2023-art-calendar/the_pure_light_within_you.jpg
 title:  "Holistic Healing 2023 Art Calendar"
 title-slug: 2022-12-09-holistic-healing-2023-art-calendar
+redirect_from: /2023-calendar
 card-class: blog-post
 author: Ash Mystic
 date: 2022-12-09

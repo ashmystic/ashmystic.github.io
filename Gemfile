@@ -28,3 +28,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "execjs"
+
+gem 'jekyll-redirect-from'
+gem "webrick", "~> 1.7"
