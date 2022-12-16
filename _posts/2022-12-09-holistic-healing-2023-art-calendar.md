@@ -12,22 +12,14 @@ date: 2022-12-09
 excerpt: Art in general has and continues to be a huge party of my health and wellness journey. From experience I know that the actual process of making art, as well as the content of the art both contribute to its therapeutic and healing properties.
 ---
 
-<img class="post-image-fullwidth" src="/assets/images/posts/2022-12-09-holistic-healing-2023-art-calendar/holistic_healing_art_calendar_cover.jpg" alt="The Pure Light Within You chakra art"/>
-
-Above art: "The Pure Light Within You"
 
 ### Holistic Healing 2023 Art Calendar*
 
 This page is meant to go along with the art calendar I designed and printed for 2023! Below are descriptions of the art for each month and how it ties in to the "Holistic Healing" theme of the calendar. Art in general has and continues to be a huge party of my health and wellness journey. (This calendar focuses on visual art, but poetry, music and dance are just as - if not even more - therapeutic for me. Maybe future calendars will feature those other mediums!) From experience I know that the actual process of making art, as well as the content of the art both contribute to its therapeutic and healing properties.
 
-The art on the cover "The Pure Light Within You" is from a series of four self-portraits that go with a beautiful traditional song called "The Longtime Sunshine Song". My favorite version is a recent one from Amrit Kirtan. <a href="https://youtu.be/X1eO013Ti6Y" target="_blank">Here it is on Youtube.</a> I bought her album "Sacred Circle" in about 2010 while in college. It was before my conscious spiritual awakening. I believe the album did a lot to open me up to that path of my life. In about 2017 I created hand positions to go with each line of the lyrics. I use this as a sun salutation mantra, saying the words and matching the movements as I great the sun in prayer.
-
-<img class="post-image-fullwidth" src="/assets/images/posts/2022-12-09-holistic-healing-2023-art-calendar/longtime_sunshine_song.jpg" alt="The Longtime Sunshine Song art"/>
-
-Above art: "The Longtime Sunshine Song Mantra", photography and digital collage
-
 ### Table of Contents
 
+* <a href="#cover-the-pure-light-within-you">Cover: "The Pure Light Within You"</a>
 * <a href="#january-aquari-tetrahedra">January: "Aquari Tetrahedra"</a>
 * <a href="#february-lego-asclepeion">February: "LEGO Asclepeion"</a>
 * <a href="#march-digits-of-pi">March: "Digits of Pi"</a>
@@ -41,6 +33,19 @@ Above art: "The Longtime Sunshine Song Mantra", photography and digital collage
 * <a href="#november-connecting-with-the-roots">November: "Connecting with the Roots"</a>
 * <a href="#december-starseeds">December: "Starseeds"</a>
 
+### Cover: "The Pure Light Within You"
+
+<img class="post-image-fullwidth" src="/assets/images/posts/2022-12-09-holistic-healing-2023-art-calendar/holistic_healing_art_calendar_cover.jpg" alt="The Pure Light Within You chakra art"/>
+
+Above art: "The Pure Light Within You", photography and digital collage/effects
+
+<img class="post-image-fullwidth" src="/assets/images/posts/2022-12-09-holistic-healing-2023-art-calendar/longtime_sunshine_song.jpg" alt="The Longtime Sunshine Song art"/>
+
+Above art: "The Longtime Sunshine Song Mantra", photography and digital collage/effects
+
+The art on the cover "The Pure Light Within You" is from a series of four self-portraits that go with a beautiful traditional song called "The Longtime Sunshine Song". My favorite version is a recent one from Amrit Kirtan. <a href="https://youtu.be/X1eO013Ti6Y" target="_blank">Here it is on Youtube.</a> I bought her album "Sacred Circle" in about 2010 while in college. It was before my conscious spiritual awakening. I believe the album did a lot to open me up to that path of my life.
+
+In about 2017 I created hand positions to go with each line of the lyrics. I use this often as a sun salutation mantra, saying the words and matching the movements as I great the sun daily in prayer.
 
 ### January: "Aquari Tetrahedra"
 
