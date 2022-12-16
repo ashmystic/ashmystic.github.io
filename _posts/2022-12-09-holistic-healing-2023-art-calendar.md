@@ -6,7 +6,6 @@ category:
 image: /assets/images/posts/2022-12-09-holistic-healing-2023-art-calendar/the_pure_light_within_you.jpg
 title:  "Holistic Healing 2023 Art Calendar"
 title-slug: 2022-12-09-holistic-healing-2023-art-calendar
-redirect_from: /2023-calendar
 card-class: blog-post
 author: Ash Mystic
 date: 2022-12-09
@@ -21,20 +20,26 @@ Above art: "The Pure Light Within You"
 
 This page is meant to go along with the art calendar I designed and printed for 2023! Below are descriptions of the art for each month and how it ties in to the "Holistic Healing" theme of the calendar. Art in general has and continues to be a huge party of my health and wellness journey. (This calendar focuses on visual art, but poetry, music and dance are just as - if not even more - therapeutic for me. Maybe future calendars will feature those other mediums!) From experience I know that the actual process of making art, as well as the content of the art both contribute to its therapeutic and healing properties.
 
+The art on the cover "The Pure Light Within You" is from a series of four self-portraits that go with a beautiful traditional song called "The Longtime Sunshine Song". My favorite version is a recent one from Amrit Kirtan. <a href="https://youtu.be/X1eO013Ti6Y" target="_blank">Here it is on Youtube.</a> I bought her album "Sacred Circle" in about 2010 while in college. It was before my conscious spiritual awakening. I believe the album did a lot to open me up to that path of my life. In about 2017 I created hand positions to go with each line of the lyrics. I use this as a sun salutation mantra, saying the words and matching the movements as I great the sun in prayer.
+
+<img class="post-image-fullwidth" src="/assets/images/posts/2022-12-09-holistic-healing-2023-art-calendar/longtime_sunshine_song.jpg" alt="The Longtime Sunshine Song art"/>
+
+Above art: "The Longtime Sunshine Song Mantra", photography and digital collage
+
 ### Table of Contents
 
-* <a href="#january-aquari-tetrahedra">January: Aquari Tetrahedra</a>
-* <a href="#february-lego-asclepeion">February: LEGO Asclepeion</a>
-* <a href="#march-digits-of-pi">March: Digits of Pi</a>
-* <a href="#april-pachamama-and-liberation">April: Pachamama and Liberation</a>
-* <a href="#may-chalk-mandala">May: Chalk Mandala</a>
-* <a href="#june-illuminated-shadow-and-distillery-of-light">June: Illuminated Shadow and Distillery of Light</a>
-* <a href="#july-free-spirit">July: Free Spirit</a>
-* <a href="#august-camping-trip-and-impregnated-with-light">August: Camping Trip and Impregnated with Light</a>
-* <a href="#september-mckinney-falls-state-park">September: McKinney Falls State Park</a>
-* <a href="#october-hopi-prophecy-fulfilled">October: Hopi Prophecy Fulfilled</a>
-* <a href="#november-connecting-with-the-roots">November: Connecting with the Roots</a>
-* <a href="#december-starseeds">December: Starseeds</a>
+* <a href="#january-aquari-tetrahedra">January: "Aquari Tetrahedra"</a>
+* <a href="#february-lego-asclepeion">February: "LEGO Asclepeion"</a>
+* <a href="#march-digits-of-pi">March: "Digits of Pi"</a>
+* <a href="#april-pachamama-and-liberation">April: "Pachamama and Liberation"</a>
+* <a href="#may-chalk-mandala">May: "Chalk Mandala"</a>
+* <a href="#june-illuminated-shadow-and-distillery-of-light">June: "Illuminated Shadow and Distillery of Light"</a>
+* <a href="#july-free-spirit">July: "Free Spirit"</a>
+* <a href="#august-camping-trip-and-impregnated-with-light">August: "Camping Trip" and "Impregnated with Light"</a>
+* <a href="#september-mckinney-falls-state-park">September: "McKinney Falls State Park"</a>
+* <a href="#october-hopi-prophecy-fulfilled">October: "Hopi Prophecy Fulfilled"</a>
+* <a href="#november-connecting-with-the-roots">November: "Connecting with the Roots"</a>
+* <a href="#december-starseeds">December: "Starseeds"</a>
 
 
 ### January: "Aquari Tetrahedra"
@@ -156,7 +161,7 @@ McKinney Falls State Park in Austin, Texas is the site of some of my most profou
 
 Above art: "Hopi Prophecy Fulfilled", Digital illustration
 
-This art is inspired by the great Hopi Prophecy, fortelling the reunification of the 4 Nations of Earth. If you pay attention to politics you may notice a lot of "white hate", guilt and shame going around in contemporary "woke" culture (including from white people) which I think is toxic, racist and...well... hateful. Enough said? The perspective of this prophecy helps alleviate that toxic vison. It's been an important part of my healing journey to refuse the shame that is cast. Of course thre are many ways to improve and cause less suffering, but I beleive the mainstream politically-correct narrative is quite biased and close-minded. Below is an excerpt of the prophecy from <a href="https://bahai-library.com/brown_american_indian_prophecies" target="_blank">the Bahai Library site</a>:
+This art is inspired by the great Hopi Prophecy, fortelling the reunification of the 4 Nations of Earth. I love that it transcends the mainstream narrative of certain cultures being victims and certain cultures being perpetrators. Of course there are many ways to improve how people are treated at personal and systemic levels and cause less suffering, but I believe that the mainstream politically-correct narrative is quite biased, one-sided and closed-minded. Below is an excerpt of the prophecy from <a href="https://bahai-library.com/brown_american_indian_prophecies" target="_blank">the Bahai Library site</a>:
 
 "At the beginning of this cycle of time, long ago, the Great Spirit came down and He made an appearance and He gathered the peoples of this earth together -- they say on an island which is now beneath the water -- and He said to the human beings, "I'm going to send you to four directions and over time I'm going to change you to four colors, but I'm going to give you some teachings and you will call these the Original Teachings and when you come back together with each other you will share these so that you can live and have peace on earth, and a great civilization will come about.
 …
