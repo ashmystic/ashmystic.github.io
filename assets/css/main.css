@@ -132,6 +132,10 @@ display:block;
   background-image: url("../images/portfolio-items/lions_gate.jpg") !important;
   /*height: 500px;*/
 }
+#page-header-temple-of-divine-light {
+  background-image: url("../images/portfolio-items/temple_of_divine_light.jpg") !important;
+  /*height: 500px;*/
+}
 #page-header-blog {
   background-image: url("../images/portfolio-items/ancient_origins.jpg") !important;
   /*height: 500px;*/
