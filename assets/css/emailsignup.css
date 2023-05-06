@@ -1,46 +1,25 @@
 #emailsignup {
-  color: white;
-  background-image: url("../images/drawing_example.JPG") !important;
-  /*height: default;*/
+	color: white;
+	background-image: url("../images/drawing_example.JPG") !important;
 
-   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  /*background-position: right 50% bottom 30%;*/
-  color: white;
-  position:relative;
-
-   margin: 0px;
-  min-height: 350px;
+	background-repeat: no-repeat;
+  	background-size: cover;
+	background-position: right 50% top 40%;
+	color: white;
+	position:relative;
+	margin: 0px;
 }
 
 #emailsignup > .row {
-	padding: 20px;
- 	/*margin: 0px !important;*/
- 	margin: 50px;
 	background-color:rgba(75,75,75,0.7);
+	padding: 100px 50px 50px;
+	min-height: 350px;
 }
 @media screen and ( max-width: 540px) {
-	#emailsignup {
-		color: white;
-		background-image: url("../images/drawing_example.JPG") !important;
-		/*height: default;*/
-
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-size: cover;
-		/*background-position: right 50% bottom 30%;*/
-		color: white;
-		position:relative;
-
-		margin: 0px;
-		height: 400px;
-	}
+	
 	#emailsignup > .row {
-		padding: 0px;
-	 	/*margin: 0px !important;*/
-	 	margin: 0px;
 		background-color:rgba(75,75,75,0.7);
+		padding: 0px;
 	}
 
 	
