@@ -23,7 +23,13 @@ function isotopeInit(gridContainer, gridItemContainer, filterContainer, sortCont
     // init Isotope
     var $grid = $(gridContainer).isotope({
         itemSelector: gridItemContainer,
-        layoutMode: 'masonry',
+        // layoutMode: 'masonry',
+        // layoutMode: 'cellsByRow',
+        layoutMode: 'fitRows',
+        // masonry: {
+        //     columnWidth: 50,
+        //     gutter: 10
+        // },
         sortBy: getSortByValue(sortContainer),
         sortAscending: isSortAscending(sortOrderContainer),
         getSortData: {

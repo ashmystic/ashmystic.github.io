@@ -80,6 +80,10 @@
     
 }
 
+.grid-item .text {
+    margin: 0px 10px;
+}
+
 .grid-item a {
     color: AntiqueWhite;
 }
@@ -120,7 +124,8 @@ div.new-items .grid-item .category:hover {
 }
 
 .grid-item .medium {
-  display: none;
+  /* display: none; */
+  padding: 0px 10px;
 }
 
 
@@ -146,34 +151,37 @@ div.new-items .grid-item .category:hover {
 
 
 
-/* Work-cited */
+/* Feature */
 
-.grid-item.work-cited {
+.grid-item.feature {
     /*padding-top: 15px;*/
+    height: 500px;
 }
 
-.grid-item.work-cited .image {
-    width: 120px;
-    float: left;
-    margin: 7px;
-    /*position: absolute;
-  left: 10px;
-  bottom: 20px;*/
+.grid-item.feature .image {
+    /* width: 120px; */
+    /* float: left; */
+    /* margin: 7px; */
+}
+.grid-item.feature .image img {
+    height: 200px;
+    object-fit: cover;
+    object-position: center top;
+
 }
 
-.grid-item.work-cited .title {
+/*
+.grid-item.feature .title {
     margin: 0px 10px;
     font-size: 1.3em;
 }
 
-.grid-item.work-cited .author {
-    /*position: absolute;*/
-    /*left: 15px;*/
-    /*top: 110px;*/
+.grid-item.feature .author {
+    
     text-shadow: 1px 1px #333;
 }
-
-.grid-item.work-cited .text {
+*/
+.grid-item.feature .text {
     /*position: absolute;
   left: 10px;
   top: 15px;*/

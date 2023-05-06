@@ -14,6 +14,75 @@ layout: default
   </div>
 </div>
 
+<section class="item-portfolio item-portfolio-{{ page.item-category }}">
+  <h2 class="section-title dark">Featured Oferings</h2>
+</br>
+  <div class="container-fluid container-isotope">
+
+      <div id="filters">
+      {% for filtergroup in page.item-filters %}
+        <div class="button-group-container">
+          <!-- <label class="button-label" for="{{ filtergroup.name }}"><h4>{{ filtergroup.name }}</h4></label> -->
+          <div class="button-group" name="{{ filtergroup.name }}" data-filter-group="{{ filtergroup.name }}">
+              <button class="button is-checked show-all" data-filter="*">show all</button>
+              {% for filter in filtergroup.filter-list %}
+              <button class="button" data-filter=".{{ filtergroup.name }}-{{ filter | downcase | replace: ' ', '-' | replace: '(', '-' }}">{{ filter }}</button>
+              {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+      </div>
+    </br>
+
+
+      <!-- <h2 class="grid-filter-header">Sort</h2>
+      <div id="sorts" class="button-group">
+        {% for sortValue in page.item-sorts %}
+          <button class="button {% if page.item-sorts.first == sortValue %}is-checked{% endif %}" data-sort-by="{{ sortValue | downcase | replace: ' ', '-' }}">{{ sortValue }}</button>
+        {% endfor %}
+      </div>
+      <div id="sort-order" class="button-group">
+          <button class="button" data-sort-asc="true">▲</button>
+          <button class="button is-checked" data-sort-asc="false">▼</button>
+      </div> -->
+     
+      {% assign items = site.portfolio-items | where:'category', page.item-category | sort: 'sort-order' %}
+    
+      <div class="no-results"><h4>No results found. Try adjusting filters.</h4></div>
+      <div class="grid {{ page.item-category }}">
+          <!-- Get the collection -->
+
+          {% for item in items  %}
+          {% assign content-nl-stripped = item.content | strip_newlines %}
+          <div class="grid-item {{ item.card-class }} Category-{{ item.category }} {% for medium in item.mediums %}Medium-{{ medium }} {% endfor %} {% for topic in item.topics %}Topic-{{ topic }} {% endfor %} {% for region in item.region %}Region-{{ region }} {% endfor %}" data-category="general wisdom, society">
+            {% case item.card-class %}
+              {% when 'feature' %}
+                  <div class="medium">{{ item.medium }}</div>
+                  <!-- <img class="image" src="{{ item.image }}"></img> -->
+                  <a class="image image-preview" href="{{ item.button.url }}" {% if item.button.new-tab %}target="_blank"{% endif %}>
+                    <img src="assets/images/portfolio-items/thumbnail/{{ item.image }}" class="">
+                  </a>
+                  <div class="title">
+                      <h4><b>{{ item.title }}</b></h4>
+                  </div>
+                  <div class="medium">{{ item.type | capitalize | replace: '-', ' ' }}</div> 
+                  <!-- <div class="author">{{ item.author }}</div> -->
+                  <!-- <div class="date">{{ item.date }}</div> -->
+                  <hr>
+                  <div class="text">{{ item.text }}</div>
+
+                </br>
+                  <a class="link" href="{{ item.button.url }}" {% if item.button.new-tab %}target="_blank"{% endif %}><button class="button">{{ item.button.text }}</button></a>
+            {% endcase %}
+            </div>
+          {% endfor %}
+      </div>
+  </div>
+</section>
+
+{% include emailsignup.html %}
+
+
 <div class="container-fluid page-section" id="page-section-divination-1">
   <div class="row">
     <div class="col-sm-8 page-section__title">
@@ -49,7 +118,7 @@ layout: default
     </div>
   </div>
 
-  {% include emailsignup.html %}
+  
 
   <div class="container-fluid page-section" id="section-about-divination">
 

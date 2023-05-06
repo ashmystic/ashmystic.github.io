@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 id: home
 title: Spiritual Guidance, Tools & Art
 subtitle: by Ash Mystic
@@ -12,5 +9,16 @@ layout: home
 cta:
       text: Book a Session now
       url: divination
+
+item-category: feature
+number-display-items: 50
+item-filters:
+    -
+      name: "Medium"
+      filter-list:
+        - "Services"
+        - "Products"
+item-sorts:
+    - "Sort Order"
 ---
 <div></div>

@@ -27,13 +27,18 @@ body {
   text-align: center;
 
   /* Hide by default for most pages */
-  display:none;
+  /* display:none; */
 }
 .home .section-title {
 display:block;
 }
 .section-title h1 {
   font-size: 3em;
+}
+.section-title.dark {
+    padding-top: 0px;
+    color: white;
+    display: block;
 }
 
 /* external css: flickity.css */
@@ -242,4 +247,9 @@ display:block;
     background-image: url("../images/textures/skulls.png");
     /*background-color: #381212;*/
     /*background-image: url("../images/textures/soft-wallpaper.png");*/
+}
+.item-portfolio-feature {
+  background: #2d878a;
+  background-image: url("../images/textures/dimension.png");
+  
 }
