@@ -60,8 +60,9 @@ layout: default
                 <div class="image">
                     <a href="{{ post.url }}"><img src="{{ post.image}}"></img></a>
                 </div>
-                <div class="post-subtitle">
-                   {{ post.date | date_to_long_string}}
+                <div class="date">
+                   {{ post.date}}
+                   <!-- {{ post.dateshort }} -->
                 </div>
                 <div class="title">
                     <h4><b>{{ post.title }}</b></h4>
@@ -72,6 +73,10 @@ layout: default
                 <div class="link">
                     <a href="{{ post.url }}"><button class="button">View post</button></a>
                 </div>
+                <div class="post-date">
+                  {{ post.date | date_to_long_string}}
+                  <!-- {{ post.dateshort }} -->
+               </div>
               </div>
             {% endfor %}
         </div>

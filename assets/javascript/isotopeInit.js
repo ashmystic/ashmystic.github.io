@@ -4,7 +4,7 @@ $(function() {
     filterContainer = '#filters',
     sortContainer = '#sorts',
     sortOrderContainer = '#sort-order';
-
+   
     // Initialize isotope once images are loaded
     imagesLoaded($(gridContainer), function() {
         isotopeInit(gridContainer, gridItemContainer, filterContainer, sortContainer, sortOrderContainer);
@@ -23,13 +23,8 @@ function isotopeInit(gridContainer, gridItemContainer, filterContainer, sortCont
     // init Isotope
     var $grid = $(gridContainer).isotope({
         itemSelector: gridItemContainer,
-        // layoutMode: 'masonry',
-        // layoutMode: 'cellsByRow',
-        layoutMode: 'fitRows',
-        // masonry: {
-        //     columnWidth: 50,
-        //     gutter: 10
-        // },
+        // layoutMode: 'fitRows',
+        layoutMode: getLayoutMode(window.location.href),
         sortBy: getSortByValue(sortContainer),
         sortAscending: isSortAscending(sortOrderContainer),
         getSortData: {
@@ -136,4 +131,25 @@ function checkResults(gridContainer) {
     } else {
         $('.no-results').show();
     }
+}
+
+/*
+Get the layout mode to use based on the page
+*/
+function getLayoutMode(url) {
+    let page = url.replace(/\/$/, '');
+    // console.log(url);
+    page = page.substring(page.lastIndexOf('/') + 1)
+    console.log("page: " + page)
+
+    switch(page) {
+        case "art":
+        case "blog":
+            // Blog, Art gallery
+            return 'masonry'
+            break;
+        default:
+            // Home
+            return 'fitRows'
+      }
 }

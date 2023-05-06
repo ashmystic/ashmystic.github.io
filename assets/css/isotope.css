@@ -190,6 +190,12 @@ div.new-items .grid-item .category:hover {
     /*font-size: 1.7em;*/
 }
 
+/* Blog */
+.grid-item.blog-post {
+    /*padding-top: 15px;*/
+    /* height: 625px; */
+}
+
 
 /*  */
 
