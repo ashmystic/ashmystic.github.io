@@ -4,7 +4,7 @@ mediums:
   - products
 type: oracle-deck
 card-class: feature
-sort-order: 0
+sort-order: 5
 image: oottm_deck_contents.jpg
 title: Order of the Twelve Mushrooms
 author:

@@ -29,4 +29,6 @@ Cmd + P
 ## Command Palette
 ```
 Shift + Cmd + P
+
+Type/select 'Format' to format/"prettify" document
 ```

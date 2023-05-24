@@ -195,6 +195,10 @@ display:block;
   max-width: 350px;
   width: 100%;
 }
+.full-image {
+  max-width: 100%;
+  width: 100%;
+}
 
 .instructionImage {
   width:150px;
@@ -252,4 +256,20 @@ display:block;
   background: #2d878a;
   background-image: url("../images/textures/dimension.png");
   
+}
+
+/*
+  Temple of Divine Light
+*/
+.music-platform-buttons {
+  display:flex;
+  flex-direction: column;
+  text-align: right;
+}
+.music-platform-buttons h1 {
+  text-align: right;
+}
+.music-platform-buttons a .button-large {
+  width: 100%;
+  text-align: left;
 }

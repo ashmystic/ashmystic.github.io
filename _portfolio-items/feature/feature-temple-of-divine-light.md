@@ -4,7 +4,7 @@ mediums:
   - products
 type: meditation-piano-album
 card-class: feature
-sort-order: 5
+sort-order: 0
 image: temple_of_divine_light.jpg
 title: Temple of Divine Light
 author:
