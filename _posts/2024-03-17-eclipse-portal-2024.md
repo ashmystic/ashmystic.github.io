@@ -23,7 +23,7 @@ I also turned this painting into a meditation music video below:
 
 <iframe class="post-video" src="https://www.youtube.com/embed/Nc-yLCf0h_Q?si=jmZzP4IHE8HjUdL6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The day-long celebration hosted by the Current Way will be held in a beautiful park pavilion at Claridon Woodlands at will feature a violin invocation, crystal healing bed, juice bar, cosmic channelings, an astrology update, forest bath/hike and bonfire. Other items in the silent auction include a trip to the Grand Cayman Islands, massage package and henna tattoo session. If you're in the area I recommend going! You can also attend some of the activities remotely on Zoom. <a href="https://currentway.simpletix.com" target="_blank">Here</a>) is the link to purchase tickets.
+The day-long celebration hosted by the Current Way will be held in a beautiful park pavilion at Claridon Woodlands at will feature a violin invocation, crystal healing bed, juice bar, cosmic channelings, an astrology update, forest bath/hike and bonfire. Other items in the silent auction include a trip to the Grand Cayman Islands, massage package and henna tattoo session. If you're in the area I recommend going! You can also attend some of the activities remotely on Zoom. <a href="https://currentway.simpletix.com" target="_blank">Here</a> is the link to purchase tickets.
 
 <img class="post-image-fullwidth" src="/assets/images/posts/2024-03-17-eclipse-portal-2024/current_way_total_soular_eclipse.JPG" alt="current way total soular eclipse event flier"/>
 
