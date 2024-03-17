@@ -17,7 +17,9 @@ Above art: "Eclipse Portal 2024"
 
 I recently made this pen and watercolor illustration in honor of the total solar eclipse occuring April 8 of this year. I had an incredibly profound vortex/portal-like experience attending the last total solar eclipse in America in 2017. It even inspired me to create an oracle deck (check out the story <a href="https://twelvemushrooms.com/docs/learn/about/" target="_blank">here</a>!)
 
-This particular art was commissioned as a contribution to a charity silent auction to benefit a young boy healing from leukemia. The silent auction will be part of an eclipse celebration and viewing event in Chardon, Ohio (near where I live) hosted by the Current Way Wellness Movement.
+I also wrote a post for the 5-year anniversary of the 2017 eclipse which includes a guided meditation to use for this eclipse too. You can read it <a href="https://ashmystic.com/blog/2022-08-21-great-american-eclipse-5-year-anniversary" target="_blank">here</a>.
+
+The Eclipse Portal painting was commissioned as a contribution to a charity silent auction to benefit a young boy healing from leukemia. The silent auction will be part of an eclipse celebration and viewing event in Chardon, Ohio (near where I live) hosted by the Current Way Wellness Movement.
 
 I also turned this painting into a meditation music video below:
 
@@ -29,4 +31,4 @@ The day-long celebration hosted by the Current Way will be held in a beautiful p
 
 Wherever you are for the eclipse, I hope it's a magical one for you!
 
-<img class="post-image-fullwidth" src="/assets/images/posts/2024-03-17-eclipse-portal-2024/eclipse_portal_2024_painting_ash.heic" alt="eclipse portal painting with Ash"/>
+<img class="post-image-fullwidth" src="/assets/images/posts/2024-03-17-eclipse-portal-2024/eclipse_portal_2024_painting_ash.heic" alt="eclipse portal painting with Ash"/> 
