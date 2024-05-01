@@ -121,6 +121,11 @@ display:block;
   /*height: 500px;*/
 }
 
+#page-header-about {
+  background-image: url("../images/portfolio-items/ancient_origins.jpg") !important;
+  /*height: 500px;*/
+}
+
 #page-header-art-shop {
   background-image: url("../images/ancient_accumulator.jpg") !important;
   /*height: 500px;*/
@@ -142,7 +147,7 @@ display:block;
   /*height: 500px;*/
 }
 #page-header-blog {
-  background-image: url("../images/portfolio-items/ancient_origins.jpg") !important;
+  background-image: url("../images/portfolio-items/akashic_library.jpg") !important;
   /*height: 500px;*/
 }
 
@@ -208,6 +213,9 @@ display:block;
   width: 100%;
   padding:60px 30px 30px 30px;
   background-color: #f7f7f7;
+}
+.page-section.highlight {
+  background-color: #ede8f1;
 }
 .page-section__title {
   text-align: center;
