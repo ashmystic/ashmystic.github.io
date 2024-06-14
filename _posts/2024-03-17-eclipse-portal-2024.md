@@ -2,7 +2,7 @@
 layout: post
 category:
   - projects
-image: /assets/images/posts/2024-03-17-eclipse-portal-2024/eclipse_portal_2024_painting.heic
+image: /assets/images/posts/2024-03-17-eclipse-portal-2024/eclipse_portal_2024_painting.jpeg
 title:  "Eclipse Portal 2024"
 title-slug: eclipse-portal-2024
 card-class: blog-post
@@ -11,7 +11,7 @@ date: 2024-03-17
 excerpt: I recently made this pen and watercolor illustration in honor of the total solar eclipse occuring April 8 of this year. I had an incredibly profound vortex/portal-like experience attending the last total solar eclipse in America in 2017.
 ---
 
-<img class="post-image-fullwidth" src="/assets/images/posts/2024-03-17-eclipse-portal-2024/eclipse_portal_2024_painting.heic" alt="eclipse portal 2024 painting"/>
+<img class="post-image-fullwidth" src="/assets/images/posts/2024-03-17-eclipse-portal-2024/eclipse_portal_2024_painting.jpeg" alt="eclipse portal 2024 painting"/>
 
 Above art: "Eclipse Portal 2024"
 
@@ -31,4 +31,4 @@ The day-long celebration hosted by the Current Way will be held in a beautiful p
 
 Wherever you are for the eclipse, I hope it's a magical one for you!
 
-<img class="post-image-fullwidth" src="/assets/images/posts/2024-03-17-eclipse-portal-2024/eclipse_portal_2024_painting_ash.heic" alt="eclipse portal painting with Ash"/> 
+<img class="post-image-fullwidth" src="/assets/images/posts/2024-03-17-eclipse-portal-2024/eclipse_portal_2024_painting_ash.jpeg" alt="eclipse portal painting with Ash"/> 
