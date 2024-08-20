@@ -165,8 +165,15 @@ display:block;
 
 .post-date {
   position: absolute;
-  bottom: 0px;
+  bottom: 0%;
   right: 5px;
+  /* left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%); */
+
+  color: white;
+  text-shadow: 2px 1px #333;
+
 }
 .post-image-fullwidth {
   width: 90%;

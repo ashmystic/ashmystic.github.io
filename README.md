@@ -1,5 +1,13 @@
 # Development Notes
 
+## Restarting in Visual Studio Code
+```
+bundle update
+bundle exec jekyll serve
+```
+
+Go to http://127.0.0.1:4000/
+
 ## Install GNUPG and Ruby (new environment)
 ```
 brew install gnupg
