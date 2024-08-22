@@ -7,7 +7,7 @@ title:  "Order of the Twelve Mushrooms <br>Oracle Deck"
 title-slug: 2024-08-22-order-of-the-twelve-mushrooms-oracle-deck
 card-class: blog-post
 author: Ash Mystic
-date: 2024-08-19
+date: 2024-08-22
 excerpt: Announcing the ORDER OF THE TWELVE MUSHROOMS (OOTTM) Oracle Deck! Designed to celebrate, honor, grieve and surrender to all the ups and downs in life.
 ---
 
