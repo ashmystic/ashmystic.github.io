@@ -2,6 +2,7 @@
 layout: post
 category:
   - news
+redirect_to: https://express.adobe.com/page/plQPWThLAyF13/
 image: /assets/images/posts/2024-12-12-book-of-secrets/book_of_secrets_design.jpg
 title:  "Book of Secrets <br> Interactive Triptic Diorama"
 title-slug: 2024-12-12-book-of-secrets
