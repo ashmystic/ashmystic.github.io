@@ -1,0 +1,198 @@
+/* Mushroom Temple Meditation Portal Styles - Adapted for Site Consistency */
+
+/* 
+   We inherit global styles (fonts, resets) from main.css via default layout.
+   We only add specific overrides here.
+*/
+
+:root {
+  /* Day Mode Defaults */
+  --bg-gradient: linear-gradient(180deg, #fff5e6 0%, #ffe4b5 50%, #ffdaa0 100%);
+  --text-primary: #2c1810;
+  --text-secondary: #5c4033; /* Matches Slategray somewhat? Slategray is #708090. Let's stick to design doc but aware of site defaults. */
+  --accent: #d4860f;
+  --toggle-width-mobile: 280px;
+  --toggle-height-mobile: 56px;
+  --toggle-bg: #e2e8f0;
+  --toggle-border: #cbd5e0;
+}
+
+body.mode-night {
+  --bg-gradient: linear-gradient(180deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  --text-primary: #e8e8e8;
+  --text-secondary: #b8b8b8;
+  --toggle-bg: #2d3748;
+}
+
+/* Page Header Override for specific ID */
+#page-header-mushroom-temple {
+  background-image: url("../images/mushroom_temple-lightbox/mushroom_temple_lightbox_day.jpg") !important;
+  /* height: 500px;  -- Inherited from .page-header */
+  position: relative;
+  /* Ensure text color adapts if we want, but main.css sets it to white. 
+     Our gradient might be light in day mode. 
+     main.css: .page-header { color: white; }
+     Day gradient: #FFF5E6 (very light). White text won't show.
+     We need to override text color for Day Mode in the Header.
+  */
+}
+
+/* Page Header Title - Always White with Shadow to match site style */
+#page-header-mushroom-temple .page-header__title {
+  color: white !important;
+  text-shadow: 2px 1px #333 !important;
+  background: radial-gradient(
+    ellipse at center,
+    hsla(0, 0%, 20%, 0.6) 0%,
+    hsla(0, 0%, 100%, 0) 100%
+  );
+}
+
+/* Main Content Container 
+   We want the rest of the page to also follow the immersive gradient or be a "page-section".
+   If we want "consistency", we usually use .page-section (white/grey).
+   BUT the request was "fitting the new page into... design" AND "Implement the page described in this document".
+   The document emphasizes the immersive day/night shift.
+   Compromise: The 'page-section' background is transparent or overridden to allow our gradient?
+   Or we apply the gradient to the specific section.
+*/
+
+.mushroom-temple-content {
+  background: var(--bg-gradient);
+  transition: background 0.6s ease;
+  padding-bottom: 3rem;
+  color: var(--text-primary);
+}
+
+/* Toggle Styles - Refactored to match Site Buttons */
+.mode-toggle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.toggle-label {
+  font-family: "Inknut Antiqua", serif;
+  margin-bottom: 0.5rem;
+}
+
+/* Container mostly just needs to handle layout now, styles are on buttons */
+.toggle-switch {
+  display: inline-flex;
+  /* Resetting previous specific dimensions */
+  width: auto;
+  height: auto;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+.toggle-option {
+  /* Inherits .button styles from main site where applicable, but we ensure overrides here */
+  flex: 0 0 auto;
+  width: 140px; /* Fixed width for consistency */
+  border: none;
+  background-image: url("../images/textures/brushed-alum.png");
+  background-color: DarkSlateGrey;
+  color: #fff;
+  z-index: 2;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  box-shadow: 0 5px #333;
+  padding: 10px 20px;
+  margin: 0; /* Connect them */
+}
+
+/* First child rounded left */
+.toggle-option:first-child {
+  border-radius: 0.5em 0 0 0.5em;
+  border-right: 1px solid rgba(0, 0, 0, 0.2); /* Separator */
+}
+
+/* Last child rounded right */
+.toggle-option:last-child {
+  border-radius: 0 0.5em 0.5em 0;
+}
+
+/* Active State - "Pressed" look */
+.toggle-option.active {
+  background-color: DimGray;
+  box-shadow: 0 2px #333;
+  transform: translateY(3px);
+  color: #ffd700; /* Gold text for active state to highlight? Or keep white. Let's try Gold for fun/clarity */
+}
+
+.toggle-icon {
+  font-size: 1.25rem;
+}
+
+/* Remove slider styles entirely */
+.toggle-slider {
+  display: none;
+}
+
+/* Video Preview */
+.video-preview {
+  margin: 0 auto;
+  max-width: 800px; /* Consitent with desktop max width */
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.thumbnail-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 4px; /* Slightly squarer to match site vibe? Site uses lots of squares. */
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.thumbnail-container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.thumbnail-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.4s ease;
+  opacity: 0;
+}
+
+.thumbnail-image.active {
+  opacity: 1;
+}
+
+.video-title {
+  margin: 1rem 0;
+  font-family: "Inknut Antiqua", serif;
+}
+
+/* Button override */
+/* We use .button-large from site, but maybe tweak spacing */
+.button-large {
+  /* Inherited from button.css */
+  margin-top: 2rem;
+}
+
+/* About section styles removed as we now use standard site columns */

@@ -1,0 +1,34 @@
+<div
+  class="video-preview"
+  data-day-url="{{ page.day_video_url }}"
+  data-night-url="{{ page.night_video_url }}"
+>
+  <div class="thumbnail-container">
+    <img
+      src="{{ page.day_thumbnail }}"
+      alt="Mushroom Temple light box art - Day mode"
+      class="thumbnail-image active"
+      id="thumb-day"
+      loading="lazy"
+    />
+    <img
+      src="{{ page.night_thumbnail }}"
+      alt="Mushroom Temple light box art - Night mode"
+      class="thumbnail-image"
+      id="thumb-night"
+      loading="lazy"
+    />
+  </div>
+
+  <h2 class="video-title" id="video-title">
+    Day Meditation - Birds & Forest Sounds
+  </h2>
+
+  <button
+    class="button-large"
+    id="play-button"
+    aria-label="Play day meditation video"
+  >
+    Begin Journey ☀️
+  </button>
+</div>
