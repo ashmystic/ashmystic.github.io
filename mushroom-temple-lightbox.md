@@ -4,8 +4,8 @@ title: Mushroom Temple Meditation Portal
 permalink: /mushroom-temple-lightbox/
 day_video_url: "https://youtu.be/lmtunWbJhPM?si=73aLI5wM_VfVaZmL"
 night_video_url: "https://youtu.be/Nc-yLCf0h_Q?si=psddcbDLSYKF22ts"
-day_thumbnail: "/assets/images/portfolio-items/ancient_origins.jpg"
-night_thumbnail: "/assets/images/portfolio-items/ancient_accumulator.jpg"
+day_thumbnail: "/assets/images/mushroom_temple-lightbox/mushroom_temple_lightbox_day.jpg"
+night_thumbnail: "/assets/images/mushroom_temple-lightbox/mushroom_temple_lightbox_night.jpg"
 ---
 
 <!-- Custom CSS for this specific page features -->

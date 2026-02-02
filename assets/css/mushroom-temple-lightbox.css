@@ -26,12 +26,8 @@ body.mode-night {
 
 /* Page Header Override for specific ID */
 #page-header-mushroom-temple {
-  background: var(
-    --bg-gradient
-  ); /* Use the dynamic gradient instead of a static image */
-  background-size: cover;
-  transition: background 0.6s ease;
-  height: 500px;
+  background-image: url("../images/mushroom_temple-lightbox/mushroom_temple_lightbox_day.jpg") !important;
+  /* height: 500px;  -- Inherited from .page-header */
   position: relative;
   /* Ensure text color adapts if we want, but main.css sets it to white. 
      Our gradient might be light in day mode. 
