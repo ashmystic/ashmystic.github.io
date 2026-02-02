@@ -41,19 +41,15 @@ body.mode-night {
   */
 }
 
-body.mode-day #page-header-mushroom-temple .page-header__title {
-  color: #2c1810;
-  text-shadow: none; /* Remove dark shadow if text is dark */
-  background: rgba(255, 255, 255, 0.4); /* Lighter backing for legibility */
-}
-
-body.mode-night #page-header-mushroom-temple .page-header__title {
-  color: white;
+/* Page Header Title - Always White with Shadow to match site style */
+#page-header-mushroom-temple .page-header__title {
+  color: white !important;
+  text-shadow: 2px 1px #333 !important;
   background: radial-gradient(
     ellipse at center,
     hsla(0, 0%, 20%, 0.6) 0%,
     hsla(0, 0%, 100%, 0) 100%
-  ); /* Restore standard backing */
+  );
 }
 
 /* Main Content Container 
