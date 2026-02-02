@@ -174,35 +174,4 @@ body.mode-night .toggle-slider {
   margin-top: 2rem;
 }
 
-/* About Section */
-.about-section {
-  text-align: center;
-  max-width: 600px;
-  margin: 3rem auto;
-}
-
-.about-trigger {
-  font-family: "Inknut Antiqua", serif;
-  background: none;
-  border: none;
-  text-decoration: underline;
-  cursor: pointer;
-  color: var(--text-primary);
-  font-size: 1.1rem;
-}
-
-.about-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-  text-align: left;
-}
-
-.about-content.expanded {
-  max-height: 500px;
-}
-
-.about-text {
-  padding: 1rem;
-  font-family: sans-serif; /* Standard site body font */
-}
+/* About section styles removed as we now use standard site columns */

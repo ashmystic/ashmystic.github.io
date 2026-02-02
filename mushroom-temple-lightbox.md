@@ -24,6 +24,20 @@ night_thumbnail: "/assets/images/portfolio-items/ancient_accumulator.jpg"
         {% include mushroom-temple-lightbox/video-preview.html %}
       </div>
     </div>
+
+    <br>
+    <br>
+    <!-- About Section-->
+    <div class="row">
+      <div class="col-sm-12" style="text-align: center;">
+        <h3>About This Piece</h3>
+        <div style="display: inline-block; max-width: 600px; text-align: center;">
+          <p>This 3D paper-cut light box combines watercolor art with illuminated layers to create depth and atmosphere. Each layer reveals sacred geometry, mushrooms, and natural elements surrounding a mystical temple at the center.</p>
+          <p>Use these videos for meditation, relaxation, or peaceful background ambiance.</p>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
 
