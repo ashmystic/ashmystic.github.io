@@ -59,12 +59,19 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Play Button Listener
-  playButton.addEventListener("click", () => {
+  // Play Button & Thumbnail Listener
+  const openVideo = () => {
     const isDay = body.classList.contains("mode-day");
     const url = isDay ? dayVideoUrl : nightVideoUrl;
     window.open(url, "_blank");
-  });
+  };
+
+  playButton.addEventListener("click", openVideo);
+
+  const thumbnailContainer = document.querySelector(".thumbnail-container");
+  if (thumbnailContainer) {
+    thumbnailContainer.addEventListener("click", openVideo);
+  }
 
   // Initialize (default to day)
   setMode("day");
