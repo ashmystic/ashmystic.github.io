@@ -48,8 +48,10 @@ document.addEventListener("DOMContentLoaded", () => {
       videoTitle.classList.remove("fade-out");
     }, 300);
 
-    // Play Button Aria
+    // Play Button Aria & Text
     playButton.setAttribute("aria-label", `Play ${mode} meditation video`);
+    playButton.textContent =
+      mode === "day" ? "Begin Journey ☀️" : "Begin Journey 🌙";
   }
 
   // Toggle Click Listeners
