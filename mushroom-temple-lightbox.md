@@ -18,8 +18,17 @@ night_thumbnail: "/assets/images/mushroom_temple-lightbox/mushroom_temple_lightb
 <!-- Main Content Area -->
 <div class="mushroom-temple-content">
   <div class="container-fluid">
+    <br>
+    <br>
     <div class="row">
-      <div class="col-sm-12">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-6" style="text-align: center;">
+        <h4 style="font-style: italic; line-height: 1.5;">Choose a time of day to experience the temple’s unique light and soundscape, then click below to begin your journey.</h4>
+      </div>
+      <div class="col-sm-3"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12" style="text-align: center;">
         {% include mushroom-temple-lightbox/toggle.html %}
         {% include mushroom-temple-lightbox/video-preview.html %}
       </div>
