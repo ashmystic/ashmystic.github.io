@@ -64,7 +64,7 @@ body.mode-night {
   color: var(--text-primary);
 }
 
-/* Toggle Styles */
+/* Toggle Styles - Refactored to match Site Buttons */
 .mode-toggle-container {
   display: flex;
   flex-direction: column;
@@ -74,55 +74,71 @@ body.mode-night {
 }
 
 .toggle-label {
-  font-family: "Inknut Antiqua", serif; /* Match site headers */
+  font-family: "Inknut Antiqua", serif;
   margin-bottom: 0.5rem;
 }
 
+/* Container mostly just needs to handle layout now, styles are on buttons */
 .toggle-switch {
-  position: relative;
-  width: var(--toggle-width-mobile);
-  height: var(--toggle-height-mobile);
-  background: var(--toggle-bg);
-  border-radius: 9999px;
-  display: flex;
-  align-items: center;
-  padding: 4px;
-  border: 1px solid var(--toggle-border);
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: inline-flex;
+  /* Resetting previous specific dimensions */
+  width: auto;
+  height: auto;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
 }
 
 .toggle-option {
-  flex: 1;
+  /* Inherits .button styles from main site where applicable, but we ensure overrides here */
+  flex: 0 0 auto;
+  width: 140px; /* Fixed width for consistency */
   border: none;
-  background: transparent;
+  background-image: url("../images/textures/brushed-alum.png");
+  background-color: DarkSlateGrey;
+  color: #fff;
   z-index: 2;
   cursor: pointer;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  height: 100%;
   font-size: 1rem;
   font-weight: 500;
-  color: var(--text-secondary);
-  transition: color 0.3s ease;
+  transition: all 0.2s ease;
+  box-shadow: 0 5px #333;
+  padding: 10px 20px;
+  margin: 0; /* Connect them */
 }
 
+/* First child rounded left */
+.toggle-option:first-child {
+  border-radius: 0.5em 0 0 0.5em;
+  border-right: 1px solid rgba(0, 0, 0, 0.2); /* Separator */
+}
+
+/* Last child rounded right */
+.toggle-option:last-child {
+  border-radius: 0 0.5em 0.5em 0;
+}
+
+/* Active State - "Pressed" look */
+.toggle-option.active {
+  background-color: DimGray;
+  box-shadow: 0 2px #333;
+  transform: translateY(3px);
+  color: #ffd700; /* Gold text for active state to highlight? Or keep white. Let's try Gold for fun/clarity */
+}
+
+.toggle-icon {
+  font-size: 1.25rem;
+}
+
+/* Remove slider styles entirely */
 .toggle-slider {
-  position: absolute;
-  top: 4px;
-  left: 4px;
-  width: calc(50% - 4px);
-  height: calc(100% - 8px);
-  background: #ffffff;
-  border-radius: 9999px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  z-index: 1;
-}
-
-body.mode-night .toggle-slider {
-  transform: translateX(100%);
+  display: none;
 }
 
 /* Video Preview */
