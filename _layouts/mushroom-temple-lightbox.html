@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+  <title>{% if page.title %}{{ page.title | escape }}{% endif %} | {{ site.title | escape }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  
+  <!-- SEO/Social -->
+  <meta property="og:title" content="{{ page.title | escape }}">
+  <meta property="og:description" content="Meditative journey through light and nature">
+  <meta property="og:image" content="{{ page.day_thumbnail | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/favicon.ico"/>
+
+  <!-- Site Styles (Optional - for navbar if needed, but might conflict. Let's include minimized) -->
+  <!-- <link rel="stylesheet" href="/assets/css/main.css"> --> 
+  <!-- Decided to NOT include main.css to ensure the requested design is preserved. 
+       If I need the navbar, I might need to pull its dependent styles. 
+       However, the design doc is comprehensive on styles. 
+       Let's stick to the requested design. The user said 'Follow existing design' but also gave a full spec.
+       Usually a landing page works best standalone. I will include the navbar logic if I can. -->
+
+  <!-- Custom Styles for this page -->
+  <link rel="stylesheet" href="{{ '/assets/css/mushroom-temple-lightbox.css' | relative_url }}">
+
+  {% if jekyll.environment == 'production' and site.google_analytics %}
+  {% include google-analytics.html %}
+  {% endif %}
+</head>
+
+<body class="mode-day">
+
+  <!-- Optional Navbar if desired
+  <div id="site-nav">
+     {% include navbar.html %}
+  </div>
+  -->
+
+  <main class="mushroom-temple-container">
+    {{ content }}
+  </main>
+
+  <script src="{{ '/assets/js/mushroom-temple-lightbox.js' | relative_url }}"></script>
+</body>
+</html>

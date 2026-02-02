@@ -1,0 +1,55 @@
+<div
+  class="video-preview"
+  data-day-url="{{ page.day_video_url }}"
+  data-night-url="{{ page.night_video_url }}"
+>
+  <div class="thumbnail-container">
+    <img
+      src="{{ page.day_thumbnail }}"
+      alt="Mushroom Temple light box art - Day mode"
+      class="thumbnail-image active"
+      id="thumb-day"
+      loading="lazy"
+    />
+    <img
+      src="{{ page.night_thumbnail }}"
+      alt="Mushroom Temple light box art - Night mode"
+      class="thumbnail-image"
+      id="thumb-night"
+      loading="lazy"
+    />
+  </div>
+
+  <h2 class="video-title" id="video-title">
+    Day Meditation - Birds & Forest Sounds
+  </h2>
+
+  <button
+    class="play-button"
+    id="play-button"
+    aria-label="Play day meditation video"
+  >
+    <span class="icon">▶</span>
+    Begin Journey
+  </button>
+</div>
+
+<div class="about-section">
+  <button class="about-trigger" aria-expanded="false">
+    About This Piece ↓
+  </button>
+  <div class="about-content">
+    <div class="about-text">
+      <p>
+        This 3D paper-cut light box combines watercolor art with illuminated
+        layers to create depth and atmosphere. Each layer reveals sacred
+        geometry, mushrooms, and natural elements surrounding a mystical temple
+        at the center.
+      </p>
+      <p>
+        Use these videos for meditation, relaxation, or peaceful background
+        ambiance.
+      </p>
+    </div>
+  </div>
+</div>
